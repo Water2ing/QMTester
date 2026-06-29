@@ -1,0 +1,19 @@
+[Tue Jun 16 19:28:56 AEST 2026] node=dave20 shard=0
+[shard 0/6] loading manifest /work/data/manifests/bugs4q_manifest.csv...
+  6 subjects in this shard
+  RUN  qiskit_github_1 (3q)
+  RUN  qiskit_github_17 (3q)
+  RUN  qiskit_github_8 (4q)
+  RUN  qiskit_stackexchange_14 (2q)
+
++------------------- Job Report: 13232569 (FAILED) --------------------+
+| Memory (RAM)  No data available                                      |
+| CPU           [#################   ] 88.7% average                   |
+| Time          [>                   ]  3.4% (0-00:01:02 / 0-00:30:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   No data available                                                  |
+|                                                                      |
+| Warnings:                                                            |
+|   - Too much time requested                                          |
++----------------------------------------------------------------------+

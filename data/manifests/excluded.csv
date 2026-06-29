@@ -1,0 +1,21 @@
+subject_id,path,reason
+qiskit_github_5,Terra-0-4000/11/buggy.py,EXEC_ERROR:QiskitBackendNotFoundError:'No backend matches the criteria'
+qiskit_github_9,Terra-4001-6000/Bug_8/buggy.py,EXEC_ERROR:AttributeError:Attribute drive is not defined
+qiskit_github_14,Terra-6000-7100/6255_Bug/bug_version.py,IMPORT:deprecated_package_qiskit.opflow
+qiskit_github_15,Terra-6000-7100/7032_Bug/bug_version.py,IMPORT:deprecated_package_qiskit.opflow
+qiskit_github_18,Aer/bug_10/buggy.py,IMPORT:deprecated_package_qiskit.ignis
+qiskit_stackoverflow_3,stackoverflow-1-5/Bug_3/bug_version.py,"EXEC_ERROR:SyntaxError:'(' was never closed (bug_version.py, line 9)"
+qiskit_stackoverflow_4,stackoverflow-1-5/Bug_11/bug_version.py,"EXEC_ERROR:SyntaxError:invalid syntax (bug_version.py, line 7)"
+qiskit_stackexchange_4,StackExchange/17/buggy.py,EXEC_ERROR:NameError:name 'gates' is not defined
+qiskit_stackexchange_5,StackExchange/20/buggy.py,EXEC_ERROR:NameError:name 'complete_meas_cal' is not defined
+qiskit_stackexchange_6,StackExchange/1/buggy.py,"EXEC_ERROR:SyntaxError:invalid syntax (buggy.py, line 10)"
+qiskit_stackexchange_18,StackExchange_2/bug_2/buggy.py,"IMPORT_ERROR:""The 'seaborn' library is required to use 'plot_state_qsphere'. You can install it with 'pip install seaborn'."""
+qsharp_1,Q%23/buggy.qs,NON_QISKIT:qsharp
+qsharp_2,Q%23/2.ipynb,NON_QISKIT:qsharp
+cirq_1,Cirq/1/buggy.py,NON_QISKIT:cirq
+cirq_2,Cirq/2/buggy.py,NON_QISKIT:cirq
+cirq_3,Cirq/3/buggy.py,NON_QISKIT:cirq
+cirq_4,Cirq/4/buggy.py,NON_QISKIT:cirq
+cirq_5,Cirq/5/buggy.py,NON_QISKIT:cirq
+cirq_6,Cirq/6/buggy.py,NON_QISKIT:cirq
+cirq_7,Cirq/7/buggy.py,NON_QISKIT:cirq

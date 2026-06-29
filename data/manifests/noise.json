@@ -1,0 +1,9 @@
+{
+  "description": "Depolarizing noise model matching paper Sec. IV-B: p1=1e-3 single-qubit, p2=5e-3 two-qubit; T1=T2=80us, tg=50ns single-qubit (depolarizing approximation).",
+  "p1": 1e-3,
+  "p2": 5e-3,
+  "T1_us": 80,
+  "T2_us": 80,
+  "tg_ns": 50,
+  "backend": "depolarizing_approximation"
+}

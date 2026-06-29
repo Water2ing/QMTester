@@ -1,0 +1,4 @@
+subject_id,family,source,se_link,qmtester_detected,fixed_false_positive,reference_oracle,static_analyzer,circuit_level_diag,bug_category
+qcse_23954_program_shor_iqft_swaps,program_qft_round_trip,quantumcomputing.stackexchange,https://quantumcomputing.stackexchange.com/questions/23954,true,false,detected,miss,miss,inverse QFT readout omits bit-reversal swaps (do_swaps=False)
+qcse_28272_program_draper_qft_order,program_qft_round_trip,quantumcomputing.stackexchange,https://quantumcomputing.stackexchange.com/questions/28272,true,false,detected,miss,miss,Draper adder QFT do_swaps=False on reversed qubit order
+qcse_40171_program_qpe_role,program_input_permutation,quantumcomputing.stackexchange,https://quantumcomputing.stackexchange.com/questions/40171,true,false,detected,miss,incidental_swap,QPE control-qubit to power role mapping reversed

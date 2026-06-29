@@ -1,0 +1,302 @@
+[Tue Jun 16 05:20:21 AEST 2026] Ablation config 3: equivalence
+[shard 0/1] probing subjects...
+[0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j
+ 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j
+ 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j
+ 0.+0.j 1.+0.j]
+                    ┌───┐┌─┐        
+q_0: ────────────■──┤ H ├┤M├──────■─
+     ┌───┐     ┌─┴─┐└┬─┬┘└╥┘      │ 
+q_1: ┤ H ├──■──┤ X ├─┤M├──╫───■───┼─
+     └───┘┌─┴─┐└───┘ └╥┘  ║ ┌─┴─┐ │ 
+q_2: ─────┤ X ├───────╫───╫─┤ X ├─■─
+          └───┘       ║   ║ └───┘   
+c: 3/═════════════════╩═══╩═════════
+                      1   0         
+2
+{'1100': 35, '0001': 59, '1111': 112, '0010': 83, '0000': 63, '1110': 40, '1001': 53, '0101': 37, '0100': 33, '1011': 91, '0011': 82, '0111': 112, '0110': 40, '1000': 61, '1101': 40, '1010': 83}
+NoiseModel:
+  Basis gates: ['cz', 'h', 'id', 'rx', 'rz']
+  Instructions with noise: ['cz', 'rx', 'rz', 'h']
+  All-qubits errors: ['h', 'rx', 'rz', 'cz']
+
+Total count: {'011': 1000}
+      ┌──────┐
+qr_0: ┤1     ├
+      │      │
+qr_1: ┤0 ghz ├
+      │      │
+qr_2: ┤2     ├
+      └──┬───┘
+qr_3: ───■────
+              
+      ┌──────┐
+qr_0: ┤1     ├
+      │      │
+qr_1: ┤0 ghz ├
+      │      │
+qr_2: ┤2     ├
+      └──────┘
+qr_3: ────────
+              
+      ┌──────┐
+qr_0: ┤2     ├
+      │      │
+qr_1: ┤0     ├
+      │  ghz │
+qr_2: ┤      ├
+      │      │
+qr_3: ┤1     ├
+      └──────┘
+[[1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0.4-0.9j 0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0.9+0.4j 0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0.4-0.9j 0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0.9+0.4j 0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.9-0.4j 0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.4+0.9j 0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.9-0.4j 0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.4+0.9j]]
+001
+Statevector([0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j,
+             1.+0.j],
+            dims=(2, 2, 2))
+{'111': 1024}
+{'11': 259, '01': 233, '10': 264, '00': 268}
+        ┌───┐      ░ ┌─┐   
+   q_0: ┤ H ├──■───░─┤M├───
+        ├───┤┌─┴─┐ ░ └╥┘┌─┐
+   q_1: ┤ H ├┤ X ├─░──╫─┤M├
+        └───┘└───┘ ░  ║ └╥┘
+meas: 2/══════════════╩══╩═
+                      0  1 
+{'01 00': 269, '11 00': 261, '10 00': 236, '00 00': 258}
+[QuantumRegister(1, 'q81')]
+[]
+ParameterView([ParameterVectorElement(θ[0]), ParameterVectorElement(θ[1]), ParameterVectorElement(θ[2]), ParameterVectorElement(θ[3]), ParameterVectorElement(θ[4]), ParameterVectorElement(θ[5]), ParameterVectorElement(θ[6]), ParameterVectorElement(θ[7])])
+0.001
+  90 subjects in this shard
+  RUN  Aer_bug_1 (5q)
+  SKIP Aer_bug_10: IMPORT:deprecated_package_qiskit.ignis
+  SKIP Aer_bug_7: EXEC_ERROR:TypeError:generate_aer_config() got multiple values for argument 'backend_options'
+  SKIP StackExchange-page-1-25_Bug_10: EXEC_ERROR:NameError:name 'I' is not defined
+  SKIP StackExchange-page-1-25_Bug_13: EXEC_ERROR:NameError:name 'provider' is not defined
+  SKIP StackExchange-page-1-25_Bug_14: IMPORT_ERROR:cannot import name 'measure' from 'qiskit.circuit.measure' (/usr/local/lib/python3.11/site-packages/qiskit/circuit/measure.py)
+  SKIP StackExchange-page-1-25_Bug_15: EXEC_ERROR:IndentationError:unexpected indent (bug_version.py, line 4)
+  SKIP StackExchange-page-1-25_Bug_17: EXEC_ERROR:SyntaxError:invalid syntax (bug_version.py, line 44)
+  SKIP StackExchange-page-1-25_Bug_18: IMPORT:deprecated_package_qiskit.opflow
+  SKIP StackExchange-page-1-25_Bug_19: EXEC_ERROR:QiskitError:'You have to select a circuit or schedule when there is more than one available'
+  SKIP StackExchange-page-1-25_Bug_20: IMPORT_ERROR:No module named 'IPython'
+  SKIP StackExchange-page-1-25_Bug_21: EXEC_ERROR:TranspilerError:"Unable to translate the operations in the circuit: ['cx', 'u'] to the backend's (or manually specified) target basis: ['cx', 't', 'h', 'measure', 'snapshot', 's', 'barrier', 'delay', 'reset']. This likely means the target basis is not universal or there are additional equivalence rules needed in the EquivalenceLibrary being used. For more details on this error see: https://docs.quantum-computing.ibm.com/api/qiskit/qiskit.transpiler.passes.BasisTranslator#translation-errors"
+  SKIP StackExchange-page-1-25_Bug_5: EXEC_ERROR:QiskitError:'You have to select a circuit or schedule when there is more than one available'
+  SKIP StackExchange-page-1-25_Bug_6: EXEC_ERROR:SyntaxError:'(' was never closed (bug_version.py, line 23)
+  SKIP StackExchange-page-1-25_Bug_7: IMPORT:deprecated_package_qiskit.opflow
+  RUN  StackExchange-page-1-25_Bug_9 (4q)
+  SKIP StackExchange_1: EXEC_ERROR:SyntaxError:invalid syntax (buggy.py, line 10)
+  RUN  StackExchange_10 (3q)
+  SKIP StackExchange_11: EXEC_ERROR:AttributeError:'QuantumCircuit' object has no attribute 'u1'
+  SKIP StackExchange_12: EXEC_ERROR:TypeError:unsupported operand type(s) for +: 'QuantumCircuit' and 'QuantumCircuit'
+  SKIP StackExchange_13: EXEC_ERROR:AttributeError:'QuantumCircuit' object has no attribute 'u3'
+  SKIP StackExchange_14: EXEC_ERROR:AttributeError:'QuantumCircuit' object has no attribute 'u1'
+  SKIP StackExchange_15: EXEC_ERROR:AttributeError:'QuantumCircuit' object has no attribute 'cu1'
+  RUN  StackExchange_16 (4q)
+  SKIP StackExchange_17: EXEC_ERROR:NameError:name 'gates' is not defined
+  SKIP StackExchange_18: IMPORT:deprecated_package_qiskit.aqua
+  SKIP StackExchange_19: EXEC_ERROR:TypeError:ParameterExpression with unbound parameters (dict_keys([Parameter(x)])) cannot be cast to a float.
+  SKIP StackExchange_20: EXEC_ERROR:NameError:name 'complete_meas_cal' is not defined
+  SKIP StackExchange_2_bug_1: EXEC_ERROR:AttributeError:'QuantumCircuit' object has no attribute 'iden'
+  SKIP StackExchange_2_bug_2: IMPORT_ERROR:"The 'seaborn' library is required to use 'plot_state_qsphere'. You can install it with 'pip install seaborn'."
+  SKIP StackExchange_3: IMPORT_ERROR:No module named 'qiskit.extensions.standard'
+  RUN  StackExchange_4 (8q)
+  RUN  StackExchange_5 (2q)
+  SKIP StackExchange_6: IMPORT_ERROR:cannot import name 'compile' from 'qiskit' (/usr/local/lib/python3.11/site-packages/qiskit/__init__.py)
+  SKIP StackExchange_7: EXEC_ERROR:NameError:name 'backend' is not defined
+  RUN  StackExchange_8 (2q)
+  RUN  StackExchange_9 (3q)
+  SKIP Terra-0-4000_1: IMPORT:deprecated_package_qiskit.aqua
+  SKIP Terra-0-4000_10: EXEC_ERROR:NameError:name 'QuantumRegister' is not defined
+  SKIP Terra-0-4000_11: IMPORT_ERROR:cannot import name 'compile' from 'qiskit' (/usr/local/lib/python3.11/site-packages/qiskit/__init__.py)
+  SKIP Terra-0-4000_12: IMPORT_ERROR:cannot import name 'compile' from 'qiskit' (/usr/local/lib/python3.11/site-packages/qiskit/__init__.py)
+  SKIP Terra-0-4000_13: EXEC_ERROR:NameError:name 'QuantumRegister' is not defined
+  SKIP Terra-0-4000_14: EXEC_ERROR:ValueError:Input matrix is not unitary.
+  RUN  Terra-0-4000_15 (2q)
+  SKIP Terra-0-4000_16: IMPORT_ERROR:cannot import name 'CmdDef' from 'qiskit.pulse' (/usr/local/lib/python3.11/site-packages/qiskit/pulse/__init__.py)
+  SKIP Terra-0-4000_17: EXEC_ERROR:AttributeError:'QuantumCircuit' object has no attribute 'u3'
+  SKIP Terra-0-4000_18: EXEC_ERROR:TypeError:'<' not supported between instances of 'Qubit' and 'Qubit'
+  SKIP Terra-0-4000_19: EXEC_ERROR:NameError:name 'qiskit' is not defined
+  SKIP Terra-0-4000_2: EXEC_ERROR:QASM2ParseError:"<input>:6,0: 'test' is not defined in this scope"
+  SKIP Terra-0-4000_20: EXEC_ERROR:CircuitError:"Invalid param type <class 'complex'> for gate rx."
+  SKIP Terra-0-4000_21: EXEC_ERROR:NameError:name 'cx' is not defined
+  RUN  Terra-0-4000_22 (4q)
+  SKIP Terra-0-4000_23: EXEC_ERROR:AttributeError:property 'name' of 'QuantumRegister' object has no setter
+  SKIP Terra-0-4000_24: EXEC_ERROR:NameError:name 'CouplingMap' is not defined
+  SKIP Terra-0-4000_3: EXEC_ERROR:TypeError:QuantumCircuit.ccx() got an unexpected keyword argument 'label'
+  SKIP Terra-0-4000_4: EXEC_ERROR:NameError:name 'Gate' is not defined
+  SKIP Terra-0-4000_5: EXEC_ERROR:SyntaxError:invalid syntax (buggy.py, line 1)
+  SKIP Terra-0-4000_6: IMPORT_ERROR:cannot import name 'QuantumProgram' from 'qiskit' (/usr/local/lib/python3.11/site-packages/qiskit/__init__.py)
+  SKIP Terra-0-4000_7: IMPORT_ERROR:No module named 'qiskit.wrapper'
+  SKIP Terra-0-4000_8: EXEC_ERROR:AttributeError:'str' object has no attribute 'configuration'
+  SKIP Terra-0-4000_9: EXEC_ERROR:NameError:name 'get_backend' is not defined
+  SKIP Terra-4001-6000_Bug_1: EXEC_ERROR:CircuitError:"Invalid param type <class 'complex'> for gate initialize_dg."
+  SKIP Terra-4001-6000_Bug_10: EXEC_ERROR:SyntaxError:'(' was never closed (buggy.py, line 12)
+  SKIP Terra-4001-6000_Bug_11: EXEC_ERROR:AttributeError:'QuantumCircuit' object has no attribute 'u1'
+  SKIP Terra-4001-6000_Bug_2: EXEC_ERROR:NameError:name 'QuantumCircuit' is not defined
+  SKIP Terra-4001-6000_Bug_3: IMPORT_ERROR:cannot import name 'measure' from 'qiskit.circuit.measure' (/usr/local/lib/python3.11/site-packages/qiskit/circuit/measure.py)
+  SKIP Terra-4001-6000_Bug_4: EXEC_ERROR:NameError:name 'pi' is not defined
+  RUN  Terra-4001-6000_Bug_5 (4q)
+  SKIP Terra-4001-6000_Bug_6: EXEC_ERROR:NameError:name 'QuantumCircuit' is not defined
+  SKIP Terra-4001-6000_Bug_7: IMPORT_ERROR:No module named 'qiskit.providers.ibmq'
+  SKIP Terra-4001-6000_Bug_8: EXEC_ERROR:NameError:name 'FakeAlmaden' is not defined
+  SKIP Terra-4001-6000_Bug_9: EXEC_ERROR:NameError:name 'i' is not defined
+  SKIP Terra-6000-7100_6255_Bug: IMPORT:deprecated_package_qiskit.opflow
+  SKIP Terra-6000-7100_6521_Bug: EXEC_ERROR:NameError:name 'feature_train1' is not defined
+  SKIP Terra-6000-7100_6540_Bug: EXEC_ERROR:CircuitError:'The circuit contains non-unitary operations and cannot be controlled. Note that no qiskit.circuit.Instruction objects may be in the circuit for this operation.'
+  RUN  Terra-6000-7100_6571_Bug (2q)
+  SKIP Terra-6000-7100_6604_Bug: EXEC_ERROR:NameError:name 'I' is not defined
+  SKIP Terra-6000-7100_6777_Bug: IMPORT:deprecated_package_qiskit.aqua
+  SKIP Terra-6000-7100_6860_Bug: NO_CIRCUIT:no_QuantumCircuit_in_namespace
+  RUN  Terra-6000-7100_6892_Bug (1q)
+  SKIP Terra-6000-7100_6927_Bug: EXEC_ERROR:AerError:'unknown instruction: QPE'
+  SKIP Terra-6000-7100_7032_Bug: IMPORT:deprecated_package_qiskit.opflow
+  RUN  stackoverflow-1-5_1 (3q)
+  SKIP stackoverflow-1-5_Bug_11: EXEC_ERROR:SyntaxError:invalid syntax (bug_version.py, line 7)
+  RUN  stackoverflow-1-5_Bug_2 (2q)
+  SKIP stackoverflow-1-5_Bug_3: EXEC_ERROR:SyntaxError:'(' was never closed (bug_version.py, line 9)
+  RUN  stackoverflow-1-5_Bug_8 (2q)
+  RUN  stackoverflow-6-10_bug_1 (3q)
+  RUN  stackoverflow-6-10_bug_2 (2q)
+  SKIP stackoverflow-6-10_bug_3: EXEC_ERROR:AttributeError:'QuantumCircuit' object has no attribute 'cu1'
+[shard 0] done -> /var/tmp/jobfs/qmt_ablation_3/bugs4q/raw_runs_shard0000.jsonl
+[1.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j
+ 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j
+ 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j
+ 0.+0.j 0.+0.j]
+                    ┌───┐┌─┐        
+q_0: ────────────■──┤ H ├┤M├──────■─
+     ┌───┐     ┌─┴─┐└┬─┬┘└╥┘      │ 
+q_1: ┤ H ├──■──┤ X ├─┤M├──╫───■───┼─
+     └───┘┌─┴─┐└───┘ └╥┘  ║ ┌─┴─┐ │ 
+q_2: ─────┤ X ├───────╫───╫─┤ X ├─■─
+          └───┘       ║   ║ └───┘   
+c: 3/═════════════════╩═══╩═════════
+                      1   0         
+2
+{'1110': 37, '0001': 44, '1111': 98, '1010': 94, '1011': 100, '0011': 96, '0111': 100, '0101': 43, '1001': 54, '1100': 35, '0100': 46, '0010': 105, '0000': 50, '1000': 43, '0110': 40, '1101': 39}
+NoiseModel:
+  Basis gates: ['cz', 'h', 'id', 'rx', 'rz']
+  Instructions with noise: ['rz', 'cz', 'h', 'rx']
+  All-qubits errors: ['h', 'rx', 'rz', 'cz']
+
+Total count: {'011': 1000}
+      ┌──────┐
+qr_0: ┤1     ├
+      │      │
+qr_1: ┤0 ghz ├
+      │      │
+qr_2: ┤2     ├
+      └──┬───┘
+qr_3: ───■────
+              
+      ┌──────┐
+qr_0: ┤1     ├
+      │      │
+qr_1: ┤0 ghz ├
+      │      │
+qr_2: ┤2     ├
+      └──────┘
+qr_3: ────────
+              
+      ┌──────┐
+qr_0: ┤2     ├
+      │      │
+qr_1: ┤0     ├
+      │  ghz │
+qr_2: ┤      ├
+      │      │
+qr_3: ┤1     ├
+      └──────┘
+[[1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0.4-0.9j 0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0.9+0.4j 0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0.4-0.9j 0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0.9+0.4j 0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.9-0.4j 0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.4+0.9j 0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.9-0.4j 0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.4+0.9j]]
+001
+Statevector([0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j,
+             1.+0.j],
+            dims=(2, 2, 2))
+{'111': 1024}
+{'00': 271, '10': 239, '01': 271, '11': 243}
+        ┌───┐      ░ ┌─┐   
+   q_0: ┤ H ├──■───░─┤M├───
+        ├───┤┌─┴─┐ ░ └╥┘┌─┐
+   q_1: ┤ H ├┤ X ├─░──╫─┤M├
+        └───┘└───┘ ░  ║ └╥┘
+meas: 2/══════════════╩══╩═
+                      0  1 
+{'00 00': 260, '01 00': 237, '10 00': 273, '11 00': 254}
+[QuantumRegister(1, 'q81')]
+[]
+ParameterView([ParameterVectorElement(θ[0]), ParameterVectorElement(θ[1]), ParameterVectorElement(θ[2]), ParameterVectorElement(θ[3]), ParameterVectorElement(θ[4]), ParameterVectorElement(θ[5]), ParameterVectorElement(θ[6]), ParameterVectorElement(θ[7])])
+0.001
+
++------------------- Job Report: 13214611 (FAILED) --------------------+
+| Memory (RAM)  No data available                                      |
+| CPU           [                    ]  1.1% average                   |
+| Time          [>                   ]  0.1% (0-00:00:29 / 0-08:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   0 B           0 B                      1                   |
+|   OS      0 B           0 B                      2                   |
++----------------------------------------------------------------------+

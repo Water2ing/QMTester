@@ -1,0 +1,34 @@
+[Tue Jun 16 19:33:58 AEST 2026] node=dave48 shard=1
+[shard 1/6] loading manifest /work/data/manifests/bugs4q_manifest.csv...
+  6 subjects in this shard
+  RUN  qiskit_github_10 (1q)
+  RUN  qiskit_github_2 (16q)
+  RUN  qiskit_stackexchange_1 (1q)
+  RUN  qiskit_stackexchange_15 (4q)
+  RUN  qiskit_stackexchange_8 (8q)
+  RUN  qiskit_stackoverflow_7 (3q)
+[shard 1] done -> /var/tmp/jobfs/qmt_bugs4q_1/raw_runs_shard0001.jsonl
+[Tue Jun 16 19:35:30 AEST 2026] Copying shards back to /fred...
+'/var/tmp/jobfs/qmt_bugs4q_1/morphq_shard0001.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/redesign_hpc_1g_32bugs_fixcounts_20260616T093325Z/shards/morphq_shard0001.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_1/morphq_summary_shard0001.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/redesign_hpc_1g_32bugs_fixcounts_20260616T093325Z/shards/morphq_summary_shard0001.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_1/raw_runs_shard0001.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/redesign_hpc_1g_32bugs_fixcounts_20260616T093325Z/shards/raw_runs_shard0001.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_1/summary_shard0001.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/redesign_hpc_1g_32bugs_fixcounts_20260616T093325Z/shards/summary_shard0001.jsonl'
+[Tue Jun 16 19:35:30 AEST 2026] shard 1 done.
+
++------------------ Job Report: 13232629 (COMPLETED) ------------------+
+| Memory (RAM)  [#                   ] 10.0% (102 MB peak / 1 GB)      |
+| CPU           [##################  ] 90.8% average                   |
+| Time          [->                  ]  5.4% (0-00:01:38 / 0-00:30:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   0 B           0 B                      4                   |
+|   /fred   132 KB        116 B                   79                   |
+|   /home   12 KB         0 B                      5                   |
+|   OS      0 B           0 B                      2                   |
+|                                                                      |
+| Warnings:                                                            |
+|   - Too much memory requested                                        |
+|   - Too much time requested                                          |
++----------------------------------------------------------------------+

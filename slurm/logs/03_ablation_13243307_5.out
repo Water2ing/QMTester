@@ -1,0 +1,14 @@
+[Wed Jun 17 06:41:19 AEST 2026] Ablation config 5: identity swap phase
+
++------------------ Job Report: 13243330 (CANCELLED) ------------------+
+| Memory (RAM)  No data available                                      |
+| CPU           [###############     ] 79.4% average                   |
+| Time          [>                   ]  0.9% (0-00:00:34 / 0-01:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   0 B           0 B                      3                   |
+|   /fred   8 KB          135 B                   35                   |
+|   OS      0 B           0 B                      2                   |
++----------------------------------------------------------------------+

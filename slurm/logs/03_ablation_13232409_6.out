@@ -1,0 +1,39 @@
+[Tue Jun 16 19:18:27 AEST 2026] Ablation config 6: identity swap phase equivalence
+[shard 0/1] loading manifest /work/data/manifests/bugs4q_manifest.csv...
+  17 subjects in this shard
+  RUN  qiskit_github_10 (1q)
+  RUN  qiskit_github_11 (1q)
+  RUN  qiskit_github_12 (2q)
+  RUN  qiskit_github_16 (5q)
+  RUN  qiskit_github_17 (3q)
+  RUN  qiskit_github_7 (4q)
+  RUN  qiskit_github_8 (4q)
+  RUN  qiskit_stackexchange_12 (3q)
+  RUN  qiskit_stackexchange_15 (4q)
+  RUN  qiskit_stackexchange_3 (4q)
+  RUN  qiskit_stackexchange_8 (8q)
+  RUN  qiskit_stackexchange_9 (2q)
+  RUN  qiskit_stackoverflow_1 (3q)
+  RUN  qiskit_stackoverflow_2 (2q)
+  RUN  qiskit_stackoverflow_5 (3q)
+  RUN  qiskit_stackoverflow_6 (2q)
+  RUN  qiskit_stackoverflow_7 (3q)
+[shard 0] done -> /var/tmp/jobfs/qmt_ablation_6/bugs4q/raw_runs_shard0000.jsonl
+
++------------------ Job Report: 13232409 (CANCELLED) ------------------+
+| Memory (RAM)  [#                   ]  9.1% (93 MB peak / 1 GB)       |
+| CPU           [################### ] 96.2% average                   |
+| Time          [->                  ]  6.5% (0-00:03:54 / 0-01:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   0 B           0 B                      3                   |
+|   /fred   32 KB         4.8 KB                  22                   |
+|   /home   12 KB         0 B                      4                   |
+|   OS      0 B           0 B                      2                   |
+|                                                                      |
+| Warnings:                                                            |
+|   - Too much memory requested                                        |
+|   - Too much time requested                                          |
++----------------------------------------------------------------------+

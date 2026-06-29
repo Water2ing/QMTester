@@ -1,0 +1,48 @@
+[Tue Jun 16 19:09:56 AEST 2026] node=dave34 shard=4 FAMILIES=all
+[shard 4] 25 mutants
+  MUTANT m0005 op=gate_replace
+  MUTANT m0015 op=gate_replace
+  MUTANT m0025 op=gate_replace
+  MUTANT m0035 op=gate_replace
+  MUTANT m0045 op=qubit_index
+  MUTANT m0055 op=gate_replace
+  MUTANT m0065 op=gate_delete
+  MUTANT m0075 op=qubit_index
+  MUTANT m0085 op=gate_delete
+  MUTANT m0095 op=gate_delete
+  MUTANT m0105 op=qubit_index
+  MUTANT m0115 op=gate_delete
+  MUTANT m0125 op=gate_delete
+  MUTANT m0135 op=qubit_index
+  MUTANT m0145 op=qubit_index
+  MUTANT m0155 op=gate_replace
+  MUTANT m0165 op=measurement_map
+  MUTANT m0175 op=gate_delete
+  MUTANT m0185 op=gate_delete
+  MUTANT m0195 op=gate_swap
+  MUTANT m0205 op=qubit_index
+  MUTANT m0215 op=qubit_index
+  MUTANT m0225 op=gate_swap
+  MUTANT m0235 op=gate_replace
+  MUTANT m0245 op=gate_delete
+[shard 4] done -> /var/tmp/jobfs/qmt_injected_4/injected_identity_swap_phase_equivalence_shard0004.jsonl
+'/var/tmp/jobfs/qmt_injected_4/injected_identity_swap_phase_equivalence_shard0004.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/hpc_resource_fix_20260616T090928Z/shards/injected_identity_swap_phase_equivalence_shard0004.jsonl'
+'/var/tmp/jobfs/qmt_injected_4/injected_summary_identity_swap_phase_equivalence_shard0004.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/hpc_resource_fix_20260616T090928Z/shards/injected_summary_identity_swap_phase_equivalence_shard0004.jsonl'
+[Tue Jun 16 19:14:30 AEST 2026] shard 4 done.
+
++------------------ Job Report: 13232315 (COMPLETED) ------------------+
+| Memory (RAM)  [                    ]  2.4% (99 MB peak / 4 GB)       |
+| CPU           [################### ] 96.8% average                   |
+| Time          [>                   ]  2.6% (0-00:04:39 / 0-03:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   0 B           0 B                      3                   |
+|   /fred   0 B           129 B                  276                   |
+|   /home   0 B           0 B                      1                   |
+|                                                                      |
+| Warnings:                                                            |
+|   - Too much memory requested                                        |
+|   - Too much time requested                                          |
++----------------------------------------------------------------------+

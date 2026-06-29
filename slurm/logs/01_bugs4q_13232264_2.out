@@ -1,0 +1,15 @@
+[Tue Jun 16 19:08:46 AEST 2026] node=dave26 shard=2
+
++------------------ Job Report: 13232272 (CANCELLED) ------------------+
+| Memory (RAM)  No data available                                      |
+| CPU           [############        ] 63.3% average                   |
+| Time          [>                   ]  0.4% (0-00:00:30 / 0-02:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   83.5 MB       0 B                     16                   |
+|   /fred   64.2 MB       116 B                  147                   |
+|   /home   4 KB          11.8 KB                 15                   |
+|   OS      0 B           0 B                     36                   |
++----------------------------------------------------------------------+

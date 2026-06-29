@@ -1,0 +1,14 @@
+[Tue Jun 16 19:08:47 AEST 2026] Shot budget: 4096
+
++------------------ Job Report: 13232287 (CANCELLED) ------------------+
+| Memory (RAM)  No data available                                      |
+| CPU           [##########          ] 53.3% average                   |
+| Time          [>                   ]  0.3% (0-00:00:30 / 0-03:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   0 B           0 B                      3                   |
+|   /fred   156 KB        114 B                  329                   |
+|   /home   0 B           0 B                      2                   |
++----------------------------------------------------------------------+

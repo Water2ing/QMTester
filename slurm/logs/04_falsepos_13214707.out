@@ -1,0 +1,111 @@
+[Tue Jun 16 05:27:22 AEST 2026] node=dave112 RAM=251Gi
+[Tue Jun 16 05:27:22 AEST 2026] Running ideal false-positive check...
+  ghz_2_synth_16: fp=False n_admitted=30
+  ghz_2_synth_24: fp=False n_admitted=30
+  ghz_2_synth_32: fp=False n_admitted=30
+  ghz_2_synth_40: fp=False n_admitted=30
+  ghz_2_synth_48: fp=False n_admitted=30
+  ghz_2_synth_8: fp=False n_admitted=30
+  ghz_4_synth_10: fp=False n_admitted=54
+  ghz_4_synth_18: fp=False n_admitted=54
+  ghz_4_synth_2: fp=False n_admitted=54
+  ghz_4_synth_26: fp=False n_admitted=54
+  ghz_4_synth_34: fp=False n_admitted=54
+  ghz_4_synth_42: fp=False n_admitted=54
+  ghz_4_synth_50: fp=False n_admitted=54
+  ghz_6_synth_12: fp=False n_admitted=71
+  ghz_6_synth_20: fp=False n_admitted=71
+  ghz_6_synth_28: fp=False n_admitted=71
+  ghz_6_synth_36: fp=False n_admitted=71
+  ghz_6_synth_4: fp=False n_admitted=71
+  ghz_6_synth_44: fp=False n_admitted=71
+  ghz_8_synth_14: fp=False n_admitted=87
+  ghz_8_synth_22: fp=False n_admitted=87
+  ghz_8_synth_30: fp=False n_admitted=87
+  ghz_8_synth_38: fp=False n_admitted=87
+  ghz_8_synth_46: fp=False n_admitted=87
+  ghz_8_synth_6: fp=False n_admitted=87
+
+False positives: 0/25  (ideal)
+[Tue Jun 16 05:32:43 AEST 2026] Running noisy (uncalibrated) false-positive check...
+  ghz_2_synth_16: fp=False n_admitted=30
+  ghz_2_synth_24: fp=False n_admitted=30
+  ghz_2_synth_32: fp=False n_admitted=30
+  ghz_2_synth_40: fp=False n_admitted=30
+  ghz_2_synth_48: fp=False n_admitted=30
+  ghz_2_synth_8: fp=False n_admitted=30
+  ghz_4_synth_10: fp=False n_admitted=54
+  ghz_4_synth_18: fp=False n_admitted=54
+  ghz_4_synth_2: fp=False n_admitted=54
+  ghz_4_synth_26: fp=False n_admitted=54
+  ghz_4_synth_34: fp=False n_admitted=54
+  ghz_4_synth_42: fp=False n_admitted=54
+  ghz_4_synth_50: fp=False n_admitted=54
+  ghz_6_synth_12: fp=False n_admitted=71
+  ghz_6_synth_20: fp=False n_admitted=71
+  ghz_6_synth_28: fp=False n_admitted=71
+  ghz_6_synth_36: fp=False n_admitted=71
+  ghz_6_synth_4: fp=False n_admitted=71
+  ghz_6_synth_44: fp=False n_admitted=71
+  ghz_8_synth_14: fp=False n_admitted=87
+  ghz_8_synth_22: fp=False n_admitted=87
+  ghz_8_synth_30: fp=False n_admitted=87
+  ghz_8_synth_38: fp=False n_admitted=87
+  ghz_8_synth_46: fp=False n_admitted=87
+  ghz_8_synth_6: fp=False n_admitted=87
+
+False positives: 0/25  (noisy)
+[Tue Jun 16 05:34:08 AEST 2026] Running noisy+calibrated false-positive check...
+  ghz_2_synth_16: fp=False n_admitted=30
+  ghz_2_synth_24: fp=False n_admitted=30
+  ghz_2_synth_32: fp=False n_admitted=30
+  ghz_2_synth_40: fp=False n_admitted=30
+  ghz_2_synth_48: fp=False n_admitted=30
+  ghz_2_synth_8: fp=False n_admitted=30
+  ghz_4_synth_10: fp=False n_admitted=54
+  ghz_4_synth_18: fp=False n_admitted=54
+  ghz_4_synth_2: fp=False n_admitted=54
+  ghz_4_synth_26: fp=False n_admitted=54
+  ghz_4_synth_34: fp=False n_admitted=54
+  ghz_4_synth_42: fp=False n_admitted=54
+  ghz_4_synth_50: fp=False n_admitted=54
+  ghz_6_synth_12: fp=False n_admitted=71
+  ghz_6_synth_20: fp=False n_admitted=71
+  ghz_6_synth_28: fp=False n_admitted=71
+  ghz_6_synth_36: fp=False n_admitted=71
+  ghz_6_synth_4: fp=False n_admitted=71
+  ghz_6_synth_44: fp=False n_admitted=71
+  ghz_8_synth_14: fp=False n_admitted=87
+  ghz_8_synth_22: fp=False n_admitted=87
+  ghz_8_synth_30: fp=False n_admitted=87
+  ghz_8_synth_38: fp=False n_admitted=87
+  ghz_8_synth_46: fp=False n_admitted=87
+  ghz_8_synth_6: fp=False n_admitted=87
+
+False positives: 0/25  (noisy_cal)
+'/var/tmp/jobfs/qmt_falsepos/ideal/falsepos_ideal.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/falsepos_ideal.jsonl'
+'/var/tmp/jobfs/qmt_falsepos/ideal/falsepos_summary_ideal.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/falsepos_summary_ideal.jsonl'
+'/var/tmp/jobfs/qmt_falsepos/noisy/falsepos_noisy.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/falsepos_noisy.jsonl'
+'/var/tmp/jobfs/qmt_falsepos/noisy/falsepos_summary_noisy.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/falsepos_summary_noisy.jsonl'
+'/var/tmp/jobfs/qmt_falsepos/noisy_cal/falsepos_noisy_cal.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/falsepos_noisy_cal.jsonl'
+'/var/tmp/jobfs/qmt_falsepos/noisy_cal/falsepos_summary_noisy_cal.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/falsepos_summary_noisy_cal.jsonl'
+[Tue Jun 16 05:35:38 AEST 2026] falsepos done.
+
++------------------ Job Report: 13214707 (COMPLETED) ------------------+
+| Memory (RAM)  [                    ]  0.1% (92 MB peak / 64 GB)      |
+| CPU           [#                   ]  6.1% average                   |
+| Time          [>                   ]  2.3% (0-00:08:20 / 0-06:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   86.9 MB       0 B                     59                   |
+|   /fred   64.3 MB       3.9 KB                 361                   |
+|   /home   0 B           11.7 KB                  9                   |
+|   OS      0 B           0 B                      3                   |
+|                                                                      |
+| Warnings:                                                            |
+|   - Too much memory requested                                        |
+|   - CPU usage is low                                                 |
+|   - Too much time requested                                          |
++----------------------------------------------------------------------+

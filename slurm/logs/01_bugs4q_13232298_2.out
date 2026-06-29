@@ -1,0 +1,26 @@
+[Tue Jun 16 19:09:56 AEST 2026] node=dave20 shard=2
+[shard 2/6] loading manifest /work/data/manifests/bugs4q_manifest.csv...
+  3 subjects in this shard
+  RUN  qiskit_github_12 (2q)
+  RUN  qiskit_stackexchange_15 (4q)
+  RUN  qiskit_stackoverflow_5 (3q)
+[shard 2] done -> /var/tmp/jobfs/qmt_bugs4q_2/raw_runs_shard0002.jsonl
+[Tue Jun 16 19:10:38 AEST 2026] Copying shards back to /fred...
+'/var/tmp/jobfs/qmt_bugs4q_2/morphq_shard0002.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/hpc_resource_fix_20260616T090928Z/shards/morphq_shard0002.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_2/morphq_summary_shard0002.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/hpc_resource_fix_20260616T090928Z/shards/morphq_summary_shard0002.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_2/raw_runs_shard0002.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/hpc_resource_fix_20260616T090928Z/shards/raw_runs_shard0002.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_2/summary_shard0002.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/hpc_resource_fix_20260616T090928Z/shards/summary_shard0002.jsonl'
+[Tue Jun 16 19:10:38 AEST 2026] shard 2 done.
+
++------------------ Job Report: 13232308 (COMPLETED) ------------------+
+| Memory (RAM)  No data available                                      |
+| CPU           [################    ] 83.0% average                   |
+| Time          [>                   ]  0.7% (0-00:00:47 / 0-02:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   83.9 MB       0 B                     23                   |
+|   /fred   64.2 MB       0 B                    143                   |
+|   /home   12 KB         0 B                     10                   |
++----------------------------------------------------------------------+

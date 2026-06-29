@@ -1,0 +1,29 @@
+[Tue Jun 16 19:28:53 AEST 2026] node=dave63 shard=3
+[shard 3/6] loading manifest /work/data/manifests/bugs4q_manifest.csv...
+  5 subjects in this shard
+  RUN  qiskit_github_12 (2q)
+  RUN  qiskit_github_4 (1q)
+  RUN  qiskit_stackexchange_11 (2q)
+  RUN  qiskit_stackexchange_17 (1q)
+  RUN  qiskit_stackoverflow_1 (3q)
+[shard 3] done -> /var/tmp/jobfs/qmt_bugs4q_3/raw_runs_shard0003.jsonl
+[Tue Jun 16 19:29:29 AEST 2026] Copying shards back to /fred...
+'/var/tmp/jobfs/qmt_bugs4q_3/morphq_shard0003.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/redesign_hpc_1g_32bugs_20260616T092819Z/shards/morphq_shard0003.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_3/morphq_summary_shard0003.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/redesign_hpc_1g_32bugs_20260616T092819Z/shards/morphq_summary_shard0003.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_3/raw_runs_shard0003.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/redesign_hpc_1g_32bugs_20260616T092819Z/shards/raw_runs_shard0003.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_3/summary_shard0003.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/redesign_hpc_1g_32bugs_20260616T092819Z/shards/summary_shard0003.jsonl'
+[Tue Jun 16 19:29:29 AEST 2026] shard 3 done.
+
++------------------ Job Report: 13232572 (COMPLETED) ------------------+
+| Memory (RAM)  [                    ]  0.1% (1 MB peak / 1 GB)        |
+| CPU           [#################   ] 87.2% average                   |
+| Time          [>                   ]  2.2% (0-00:00:39 / 0-00:30:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   0 B           0 B                      4                   |
+|   /fred   48 KB         116 B                   46                   |
+|   /home   12 KB         0 B                      4                   |
+|   OS      0 B           0 B                      2                   |
++----------------------------------------------------------------------+

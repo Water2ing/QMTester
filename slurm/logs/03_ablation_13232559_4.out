@@ -1,0 +1,15 @@
+[Tue Jun 16 19:30:01 AEST 2026] Ablation config 4: identity swap
+
++------------------ Job Report: 13232596 (CANCELLED) ------------------+
+| Memory (RAM)  No data available                                      |
+| CPU           [################    ] 81.8% average                   |
+| Time          [>                   ]  1.2% (0-00:00:44 / 0-01:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   0 B           0 B                      8                   |
+|   /fred   64.1 MB       129 B                   64                   |
+|   /home   12 KB         0 B                      6                   |
+|   OS      0 B           0 B                      2                   |
++----------------------------------------------------------------------+

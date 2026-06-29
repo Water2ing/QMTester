@@ -1,0 +1,28 @@
+\begin{table}[t]
+\centering
+\caption{Program-level baselines (detection on buggy/mutant, FP on matched fixed; 4096 shots, ideal sim). The reference-oracle differential is a non-deployable detection ceiling; the \emph{deployable} LintQ-style register-shape check catches only the \emph{syntactic} \texttt{measure\_all} case, none of the 7 \emph{semantic} defects. Indented rows are oracle-light ablations: canonicalize-plus-raw-equality alone already gives $7/7$, so the permutation test serves specificity, not detection.}
+\label{tab:program-baselines}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}p{0.585\columnwidth}cc@{}}
+\toprule
+Method & Det. & FP \\
+\midrule
+\multicolumn{3}{@{}l}{\emph{Audited Bugs4Q defects (7 buggy / 7 fixed)}}\\
+MorphQ (circuit-level; blind) & 0/7 & --- \\
+Static analyzer (\emph{deployable}; LintQ-style) & 0/7 & 0/7 \\
+Reference-oracle (external; \emph{has} oracle) & 7/7 & 0/7 \\
+QMTester (full; oracle-free) & \textbf{7/7} & \textbf{0/7} \\
+\quad canonicalize $+$ raw equality (no test) & 7/7 & 0/7 \\
+\quad same input $+\ \chi^2$ (no transform) & 0/7 & 0/7 \\
+\quad no canonicalization $+\ \chi^2$ & 5/7 & 2/7 \\
+\quad raw count-equality, no canon. & 5/7 & 2/7 \\
+\midrule
+\multicolumn{3}{@{}l}{\emph{Injected benchmark (100 mutant / 100 fixed)}}\\
+QMTester (full) & \textbf{100/100} & \textbf{0/100} \\
+\quad same input $+\ \chi^2$ & 0/100 & 0/100 \\
+\quad no canonicalization $+\ \chi^2$ & 60/100 & 40/100 \\
+\quad raw count-equality, no canon. & 60/100 & 40/100 \\
+\bottomrule
+\end{tabular}
+\end{table}

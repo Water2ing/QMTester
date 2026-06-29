@@ -1,0 +1,18 @@
+\begin{table*}[t]
+\centering
+\caption{Program-level relation-validity obligations for QMTester. Each relation is defined over \emph{program inputs}; the follow-up circuit is rebuilt from the follow-up input and its outputs are remapped through a validated bijective canonicalization map before testing.}
+\label{tab:relation-validity}
+\scriptsize
+\setlength{\tabcolsep}{2.2pt}
+\begin{tabular}{@{}p{0.15\textwidth}p{0.17\textwidth}p{0.14\textwidth}p{0.15\textwidth}p{0.16\textwidth}p{0.13\textwidth}@{}}
+\toprule
+\textbf{Relation family} & \textbf{Preconditions} & \textbf{Invariant} & \textbf{Target bug classes} & \textbf{Invalid contexts} & \textbf{Implementation checks} \\
+\midrule
+\texttt{program\_input\_permutation} & Subject declares a covariant permutation of input qubit roles (e.g.\ symmetric controls); inverse permutation restores output order. & Canonicalized bitstring distribution matches the source after the inverse role permutation. & Qubit-role bookkeeping in multi-controlled and symmetric constructions. & Permutations the subject does not declare covariant; untracked classical side effects. & Validate role permutation, bijective inverse, and classical-bit remapping. \\
+\texttt{program\_classical\_remap} & Classical-register layout (order/endianness) is remappable and canonically invertible to the source layout. & Logical outcome distribution is invariant after remapping classical bits to source order. & Measurement-order and endianness contracts. & Remaps that drop or duplicate classical bits, or change the measured-bit count. & Validate bijective register map, key length, and flatten/endianness handling. \\
+\texttt{program\_qft\_round\_trip} & Subject exposes a QFT stage with a declared inverse over the same ordered qubits. & QFT composed with its inverse acts as the identity on the logical input. & QFT-direction and rotation-sign defects. & Approximate or truncated QFT without a matching inverse; mismatched qubit order. & Check QFT/inverse pairing, qubit order, and round-trip identity. \\
+\texttt{program\_parameter\_periodicity} & Rotation parameter has a declared period $T$; shifting by $T$ preserves the observable. & Measurement distribution is invariant under a full-period parameter shift. & Angle handling and periodicity contracts (also drives hard mutants). & Parameters whose period is not declared or is broken by the subject; non-periodic gates. & Confirm declared period and reject shifts outside the periodic domain. \\
+\texttt{program\_ancilla\_uncompute} & Ancilla/feedback registers are declared and must return to a clean state. & Completing the declared uncompute leaves the logical output invariant. & Missing/incorrect uncompute, teleportation feedback, Grover ancilla protocols. & Transformations that leave an ancilla entangled or cross a non-unitary boundary the family does not admit. & Verify ancilla cleanliness, feedback handling, and uncompute completion. \\
+\bottomrule
+\end{tabular}
+\end{table*}

@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\centering
+\caption{Canonical results, regenerated from the frozen run's \texttt{canonical\_results.csv}. Intervals are Wilson 95\% CIs. MorphQ's program-level detections are $0$ by the testing level (Sec.~\ref{sec:relations}). $^{\dagger}$Coverage-by-construction (admit-if-detected), not a detection rate (Sec.~\ref{sec:threats}). $^{\S}$The 3 mined subjects (\S\ref{sec:rq1}) meet the same checks but lie outside the frozen run. $^{\flat}$Degenerate cell (matched seeds give $p\equiv1$); the noisy/calibrated rows are informative.}
+\label{tab:canonical-results}
+\scriptsize
+\setlength{\tabcolsep}{2.4pt}
+\begin{tabular}{@{}p{0.16\textwidth}p{0.20\textwidth}p{0.12\textwidth}p{0.13\textwidth}p{0.08\textwidth}p{0.16\textwidth}@{}}
+\toprule
+\textbf{Cohort} & \textbf{Benchmark} & \textbf{Method} & \textbf{Metric} & \textbf{Count} & \textbf{Rate [95\% CI]} \\
+\midrule
+Audited Bugs4Q & Program-level defect subset & QMTester & Detected & 7/7 & 1.000 [0.646, 1.000] \\
+Real defects (all)$^{\S}$ & Bugs4Q $+$ 3 mined (QCSE) & QMTester & Detected & \textbf{10/10} & \textbf{1.000 [0.722, 1.000]} \\
+Audited Bugs4Q & Program-level defect subset & MorphQ & Detected & 0/7 & 0.000 [0.000, 0.354] \\
+Program injected$^{\dagger}$ & 100-case positive-control & QMTester & Detected & 100/100 & coverage-by-constr. \\
+Program injected & 100-case positive-control & MorphQ & Detected & 20/100 & 0.200 [0.133, 0.289] \\
+Fixed variants & 7 Bugs4Q + 100 injected fixed & QMTester & False pos. & 0/107 & 0.000 [0.000, 0.035] \\
+Correct programs$^{\flat}$ & ideal / noisy / calibrated sim & QMTester & False pos. & 0/50 \emph{each} & 0.000 [0.000, 0.071] \\
+\bottomrule
+\end{tabular}
+\end{table*}

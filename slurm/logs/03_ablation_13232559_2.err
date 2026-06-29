@@ -1,0 +1,29 @@
+INFO:    gocryptfs not found, will not be able to use gocryptfs
+Simulation failed and returned the following error message:
+ERROR: Failed to load circuits: Duplicate key "statevector" in save instruction.
+Simulation failed and returned the following error message:
+ERROR: Failed to load circuits: Duplicate key "statevector" in save instruction.
+/usr/local/lib/python3.11/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/usr/local/lib/python3.11/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+Traceback (most recent call last):
+  File "/work/scripts/run_bugs4q.py", line 142, in <module>
+    main()
+  File "/work/scripts/run_bugs4q.py", line 83, in main
+    result = run_subject(
+             ^^^^^^^^^^^^
+  File "/work/artifact/qmtester/pipeline.py", line 179, in run_subject
+    stat = two_sample_test(src_can, fu_can, corrected_alpha, rng_stat)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/artifact/qmtester/oracle/chisq.py", line 55, in two_sample_test
+    chi2, dof, p_asymp, sparse, p_final, fallback, merged = _chisq_with_sparse(
+                                                            ^^^^^^^^^^^^^^^^^^^
+  File "/work/artifact/qmtester/oracle/chisq.py", line 144, in _chisq_with_sparse
+    fallback_p = _permutation_test(x, y, n_x, n_y, chi2, rng, B)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/artifact/qmtester/oracle/chisq.py", line 158, in _permutation_test
+    perm_x = rng.multinomial(n_x, probs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 3991, in numpy.random._generator.Generator.multinomial
+ValueError: pvals must have at least 1 dimension and the last dimension of pvals must be greater than 0.

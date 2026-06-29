@@ -1,0 +1,128 @@
+[Mon Jun 15 23:16:41 AEST 2026] node=dave94 shard=3
+[shard 3/6] probing subjects...
+[1.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j
+ 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j
+ 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j
+ 0.+0.j 0.+0.j]
+                    ┌───┐┌─┐        
+q_0: ────────────■──┤ H ├┤M├──────■─
+     ┌───┐     ┌─┴─┐└┬─┬┘└╥┘      │ 
+q_1: ┤ H ├──■──┤ X ├─┤M├──╫───■───┼─
+     └───┘┌─┴─┐└───┘ └╥┘  ║ ┌─┴─┐ │ 
+q_2: ─────┤ X ├───────╫───╫─┤ X ├─■─
+          └───┘       ║   ║ └───┘   
+c: 3/═════════════════╩═══╩═════════
+                      1   0         
+2
+{'1100': 26, '1101': 34, '1010': 89, '1110': 32, '1000': 57, '0110': 36, '1011': 96, '0011': 92, '0111': 101, '0101': 40, '1001': 57, '1111': 115, '0001': 63, '0100': 34, '0000': 58, '0010': 94}
+NoiseModel:
+  Basis gates: ['cz', 'h', 'id', 'rx', 'rz']
+  Instructions with noise: ['h', 'rz', 'rx', 'cz']
+  All-qubits errors: ['h', 'rx', 'rz', 'cz']
+
+Total count: {'011': 1000}
+      ┌──────┐
+qr_0: ┤1     ├
+      │      │
+qr_1: ┤0 ghz ├
+      │      │
+qr_2: ┤2     ├
+      └──┬───┘
+qr_3: ───■────
+              
+      ┌──────┐
+qr_0: ┤1     ├
+      │      │
+qr_1: ┤0 ghz ├
+      │      │
+qr_2: ┤2     ├
+      └──────┘
+qr_3: ────────
+              
+      ┌──────┐
+qr_0: ┤2     ├
+      │      │
+qr_1: ┤0     ├
+      │  ghz │
+qr_2: ┤      ├
+      │      │
+qr_3: ┤1     ├
+      └──────┘
+[[1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0.4-0.9j 0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0.9+0.4j 0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0.4-0.9j 0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0.9+0.4j 0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.9-0.4j 0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.4+0.9j 0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.9-0.4j 0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.4+0.9j]]
+000
+Statevector([0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j,
+             1.+0.j],
+            dims=(2, 2, 2))
+{'111': 1024}
+{'01': 251, '11': 288, '00': 238, '10': 247}
+        ┌───┐      ░ ┌─┐   
+   q_0: ┤ H ├──■───░─┤M├───
+        ├───┤┌─┴─┐ ░ └╥┘┌─┐
+   q_1: ┤ H ├┤ X ├─░──╫─┤M├
+        └───┘└───┘ ░  ║ └╥┘
+meas: 2/══════════════╩══╩═
+                      0  1 
+{'00 00': 255, '11 00': 258, '10 00': 255, '01 00': 256}
+[QuantumRegister(1, 'q81')]
+[]
+ParameterView([ParameterVectorElement(θ[0]), ParameterVectorElement(θ[1]), ParameterVectorElement(θ[2]), ParameterVectorElement(θ[3]), ParameterVectorElement(θ[4]), ParameterVectorElement(θ[5]), ParameterVectorElement(θ[6]), ParameterVectorElement(θ[7])])
+0.001
+  15 subjects in this shard
+  SKIP StackExchange-page-1-25_Bug_10: EXEC_ERROR:NameError:name 'I' is not defined
+  SKIP StackExchange-page-1-25_Bug_19: EXEC_ERROR:QiskitError:'You have to select a circuit or schedule when there is more than one available'
+  RUN  StackExchange-page-1-25_Bug_9 (4q)
+  SKIP StackExchange_14: EXEC_ERROR:AttributeError:'QuantumCircuit' object has no attribute 'u1'
+  SKIP StackExchange_20: EXEC_ERROR:NameError:name 'complete_meas_cal' is not defined
+  SKIP StackExchange_6: IMPORT_ERROR:cannot import name 'compile' from 'qiskit' (/usr/local/lib/python3.11/site-packages/qiskit/__init__.py)
+  SKIP Terra-0-4000_11: IMPORT_ERROR:cannot import name 'compile' from 'qiskit' (/usr/local/lib/python3.11/site-packages/qiskit/__init__.py)
+  SKIP Terra-0-4000_17: EXEC_ERROR:AttributeError:'QuantumCircuit' object has no attribute 'u3'
+  RUN  Terra-0-4000_22 (4q)
+  SKIP Terra-0-4000_6: IMPORT_ERROR:cannot import name 'QuantumProgram' from 'qiskit' (/usr/local/lib/python3.11/site-packages/qiskit/__init__.py)
+  SKIP Terra-4001-6000_Bug_11: EXEC_ERROR:AttributeError:'QuantumCircuit' object has no attribute 'u1'
+  SKIP Terra-4001-6000_Bug_7: IMPORT_ERROR:No module named 'qiskit.providers.ibmq'
+  RUN  Terra-6000-7100_6571_Bug (2q)
+
++------------------- Job Report: 13199211 (FAILED) --------------------+
+| Memory (RAM)  No data available                                      |
+| CPU           [                    ]  1.4% average                   |
+| Time          [>                   ]  0.3% (0-00:00:50 / 0-04:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   0 B           0 B                      8                   |
+|   /fred   0 B           10 KB                  275                   |
+|   /home   0 B           0 B                      2                   |
+|   OS      0 B           0 B                      2                   |
++----------------------------------------------------------------------+

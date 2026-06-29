@@ -1,0 +1,142 @@
+[Tue Jun 16 17:05:16 AEST 2026] node=dave142 shard=1
+[shard 1/6] probing subjects...
+[1.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j
+ 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j
+ 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j
+ 0.+0.j 0.+0.j]
+                    ┌───┐┌─┐        
+q_0: ────────────■──┤ H ├┤M├──────■─
+     ┌───┐     ┌─┴─┐└┬─┬┘└╥┘      │ 
+q_1: ┤ H ├──■──┤ X ├─┤M├──╫───■───┼─
+     └───┘┌─┴─┐└───┘ └╥┘  ║ ┌─┴─┐ │ 
+q_2: ─────┤ X ├───────╫───╫─┤ X ├─■─
+          └───┘       ║   ║ └───┘   
+c: 3/═════════════════╩═══╩═════════
+                      1   0         
+2
+{'1100': 36, '1101': 36, '0010': 107, '0000': 58, '0101': 33, '1001': 54, '1011': 90, '0011': 76, '0111': 110, '1000': 62, '0110': 38, '1010': 113, '0001': 47, '1111': 111, '1110': 25, '0100': 28}
+NoiseModel:
+  Basis gates: ['cz', 'h', 'id', 'rx', 'rz']
+  Instructions with noise: ['rz', 'rx', 'h', 'cz']
+  All-qubits errors: ['h', 'rx', 'rz', 'cz']
+
+Total count: {'011': 1000}
+      ┌──────┐
+qr_0: ┤1     ├
+      │      │
+qr_1: ┤0 ghz ├
+      │      │
+qr_2: ┤2     ├
+      └──┬───┘
+qr_3: ───■────
+              
+      ┌──────┐
+qr_0: ┤1     ├
+      │      │
+qr_1: ┤0 ghz ├
+      │      │
+qr_2: ┤2     ├
+      └──────┘
+qr_3: ────────
+              
+      ┌──────┐
+qr_0: ┤2     ├
+      │      │
+qr_1: ┤0     ├
+      │  ghz │
+qr_2: ┤      ├
+      │      │
+qr_3: ┤1     ├
+      └──────┘
+[[1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0.4-0.9j 0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0.9+0.4j 0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0.4-0.9j 0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0.9+0.4j 0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.9-0.4j 0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.4+0.9j 0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.9-0.4j 0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.4+0.9j]]
+000
+Statevector([0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j,
+             1.+0.j],
+            dims=(2, 2, 2))
+{'111': 1024}
+{'10': 269, '00': 264, '11': 250, '01': 241}
+        ┌───┐      ░ ┌─┐   
+   q_0: ┤ H ├──■───░─┤M├───
+        ├───┤┌─┴─┐ ░ └╥┘┌─┐
+   q_1: ┤ H ├┤ X ├─░──╫─┤M├
+        └───┘└───┘ ░  ║ └╥┘
+meas: 2/══════════════╩══╩═
+                      0  1 
+{'00 00': 258, '10 00': 252, '11 00': 259, '01 00': 255}
+[QuantumRegister(1, 'q81')]
+[]
+ParameterView([ParameterVectorElement(θ[0]), ParameterVectorElement(θ[1]), ParameterVectorElement(θ[2]), ParameterVectorElement(θ[3]), ParameterVectorElement(θ[4]), ParameterVectorElement(θ[5]), ParameterVectorElement(θ[6]), ParameterVectorElement(θ[7])])
+0.001
+  15 subjects in this shard
+  SKIP Aer_bug_10: IMPORT:deprecated_package_qiskit.ignis
+  SKIP StackExchange-page-1-25_Bug_17: EXEC_ERROR:SyntaxError:invalid syntax (bug_version.py, line 44)
+  SKIP StackExchange-page-1-25_Bug_6: EXEC_ERROR:SyntaxError:'(' was never closed (bug_version.py, line 23)
+  SKIP StackExchange_12: EXEC_ERROR:TypeError:unsupported operand type(s) for +: 'QuantumCircuit' and 'QuantumCircuit'
+  SKIP StackExchange_18: IMPORT:deprecated_package_qiskit.aqua
+  RUN  StackExchange_4 (8q)
+  SKIP Terra-0-4000_1: IMPORT:deprecated_package_qiskit.aqua
+  RUN  Terra-0-4000_15 (2q)
+  SKIP Terra-0-4000_20: EXEC_ERROR:CircuitError:"Invalid param type <class 'complex'> for gate rx."
+  SKIP Terra-0-4000_4: EXEC_ERROR:NameError:name 'Gate' is not defined
+  SKIP Terra-4001-6000_Bug_1: EXEC_ERROR:CircuitError:"Invalid param type <class 'complex'> for gate initialize_dg."
+  RUN  Terra-4001-6000_Bug_5 (4q)
+  SKIP Terra-6000-7100_6521_Bug: EXEC_ERROR:NameError:name 'feature_train1' is not defined
+  RUN  Terra-6000-7100_6892_Bug (1q)
+  SKIP stackoverflow-1-5_Bug_3: EXEC_ERROR:SyntaxError:'(' was never closed (bug_version.py, line 9)
+[shard 1] done -> /var/tmp/jobfs/qmt_bugs4q_1/raw_runs_shard0001.jsonl
+[Tue Jun 16 17:06:35 AEST 2026] Copying shards back to /fred...
+'/var/tmp/jobfs/qmt_bugs4q_1/morphq_shard0001.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/morphq_shard0001.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_1/morphq_summary_shard0001.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/morphq_summary_shard0001.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_1/raw_runs_shard0001.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/raw_runs_shard0001.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_1/summary_shard0001.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/summary_shard0001.jsonl'
+[Tue Jun 16 17:06:35 AEST 2026] shard 1 done.
+
++------------------ Job Report: 13225956 (COMPLETED) ------------------+
+| Memory (RAM)  [                    ]  0.1% (143 MB peak / 200 GB)    |
+| CPU           [                    ]  1.1% average                   |
+| Time          [>                   ]  0.6% (0-00:01:23 / 0-04:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   84.9 MB       0 B                     47                   |
+|   /fred   64.5 MB       13.1 KB                802                   |
+|   /home   24 KB         11.8 KB                 15                   |
+|   OS      0 B           0 B                      3                   |
+|                                                                      |
+| Warnings:                                                            |
+|   - Too much memory requested                                        |
+|   - CPU usage is low                                                 |
+|   - Too much time requested                                          |
++----------------------------------------------------------------------+

@@ -1,0 +1,34 @@
+[Tue Jun 16 19:30:01 AEST 2026] Ablation config 2: phase
+[shard 0/1] loading manifest /work/data/manifests/bugs4q_manifest.csv...
+  32 subjects in this shard
+  RUN  qiskit_github_1 (3q)
+  RUN  qiskit_github_10 (1q)
+  RUN  qiskit_github_11 (1q)
+  RUN  qiskit_github_12 (2q)
+  RUN  qiskit_github_13 (3q)
+  RUN  qiskit_github_16 (5q)
+  RUN  qiskit_github_17 (3q)
+  RUN  qiskit_github_2 (16q)
+  RUN  qiskit_github_3 (2q)
+  RUN  qiskit_github_4 (1q)
+  RUN  qiskit_github_6 (2q)
+  RUN  qiskit_github_7 (4q)
+  RUN  qiskit_github_8 (4q)
+  RUN  qiskit_stackexchange_1 (1q)
+  RUN  qiskit_stackexchange_10 (5q)
+  RUN  qiskit_stackexchange_11 (2q)
+  RUN  qiskit_stackexchange_12 (3q)
+  RUN  qiskit_stackexchange_13 (4q)
+  RUN  qiskit_stackexchange_14 (2q)
+
++------------------- Job Report: 13232594 (FAILED) --------------------+
+| Memory (RAM)  No data available                                      |
+| CPU           [################    ] 81.1% average                   |
+| Time          [>                   ]  1.0% (0-00:00:37 / 0-01:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   0 B           0 B                      1                   |
+|   OS      0 B           0 B                      2                   |
++----------------------------------------------------------------------+

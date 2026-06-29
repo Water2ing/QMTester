@@ -1,0 +1,8 @@
+subject_id,detected,false_pos,n_inputs,min_p_detect
+qiskit_github_17_program_measurement_order,1,0,2,0.0001
+qiskit_stackexchange_12_program_measurement_endian,1,0,2,0.0001
+qiskit_stackexchange_3_program_ccx_uncompute,1,0,2,0.0001
+qiskit_stackexchange_8_program_grover_uncompute,1,0,2,0.0
+qiskit_stackoverflow_1_program_teleport_feedback,1,0,2,0.0001
+qiskit_stackoverflow_5_program_ccx_role,1,0,2,0.0001
+qiskit_stackoverflow_7_program_qft_direction,1,0,2,0.0001

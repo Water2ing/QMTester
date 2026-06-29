@@ -1,0 +1,148 @@
+[Tue Jun 16 17:29:54 AEST 2026] node=dave142 shard=9 FAMILIES=all
+[0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j
+ 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j
+ 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j
+ 0.+0.j 1.+0.j]
+                    ┌───┐┌─┐        
+q_0: ────────────■──┤ H ├┤M├──────■─
+     ┌───┐     ┌─┴─┐└┬─┬┘└╥┘      │ 
+q_1: ┤ H ├──■──┤ X ├─┤M├──╫───■───┼─
+     └───┘┌─┴─┐└───┘ └╥┘  ║ ┌─┴─┐ │ 
+q_2: ─────┤ X ├───────╫───╫─┤ X ├─■─
+          └───┘       ║   ║ └───┘   
+c: 3/═════════════════╩═══╩═════════
+                      1   0         
+2
+{'1110': 37, '0001': 46, '0000': 58, '0011': 78, '0111': 102, '1011': 95, '0100': 33, '1101': 36, '0010': 96, '0101': 35, '1001': 58, '0110': 34, '1000': 54, '1100': 31, '1010': 120, '1111': 111}
+NoiseModel:
+  Basis gates: ['cz', 'h', 'id', 'rx', 'rz']
+  Instructions with noise: ['rz', 'h', 'cz', 'rx']
+  All-qubits errors: ['h', 'rx', 'rz', 'cz']
+
+Total count: {'011': 1000}
+      ┌──────┐
+qr_0: ┤1     ├
+      │      │
+qr_1: ┤0 ghz ├
+      │      │
+qr_2: ┤2     ├
+      └──┬───┘
+qr_3: ───■────
+              
+      ┌──────┐
+qr_0: ┤1     ├
+      │      │
+qr_1: ┤0 ghz ├
+      │      │
+qr_2: ┤2     ├
+      └──────┘
+qr_3: ────────
+              
+      ┌──────┐
+qr_0: ┤2     ├
+      │      │
+qr_1: ┤0     ├
+      │  ghz │
+qr_2: ┤      ├
+      │      │
+qr_3: ┤1     ├
+      └──────┘
+[[1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0.4-0.9j 0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0.9+0.4j 0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0.4-0.9j 0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0.9+0.4j 0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.9-0.4j 0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.4+0.9j 0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.9-0.4j 0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.4+0.9j]]
+011
+Statevector([0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j,
+             1.+0.j],
+            dims=(2, 2, 2))
+{'111': 1024}
+{'11': 256, '01': 249, '00': 260, '10': 259}
+        ┌───┐      ░ ┌─┐   
+   q_0: ┤ H ├──■───░─┤M├───
+        ├───┤┌─┴─┐ ░ └╥┘┌─┐
+   q_1: ┤ H ├┤ X ├─░──╫─┤M├
+        └───┘└───┘ ░  ║ └╥┘
+meas: 2/══════════════╩══╩═
+                      0  1 
+{'00 00': 248, '01 00': 269, '10 00': 240, '11 00': 267}
+[QuantumRegister(1, 'q81')]
+[]
+ParameterView([ParameterVectorElement(θ[0]), ParameterVectorElement(θ[1]), ParameterVectorElement(θ[2]), ParameterVectorElement(θ[3]), ParameterVectorElement(θ[4]), ParameterVectorElement(θ[5]), ParameterVectorElement(θ[6]), ParameterVectorElement(θ[7])])
+0.001
+[shard 9] 25 mutants
+  MUTANT m0010 op=gate_replace
+  MUTANT m0020 op=qubit_index
+  MUTANT m0030 op=qubit_index
+  MUTANT m0040 op=qubit_index
+  MUTANT m0050 op=qubit_index
+  MUTANT m0060 op=gate_swap
+  MUTANT m0070 op=measurement_map
+  MUTANT m0080 op=gate_delete
+  MUTANT m0090 op=gate_replace
+  MUTANT m0100 op=gate_delete
+  MUTANT m0110 op=gate_delete
+  MUTANT m0120 op=qubit_index
+  MUTANT m0130 op=qubit_index
+  MUTANT m0140 op=gate_swap
+  MUTANT m0150 op=gate_delete
+  MUTANT m0160 op=gate_swap
+  MUTANT m0170 op=measurement_map
+  MUTANT m0180 op=qubit_index
+  MUTANT m0190 op=qubit_index
+  MUTANT m0200 op=qubit_index
+  MUTANT m0210 op=gate_delete
+  MUTANT m0220 op=gate_replace
+  MUTANT m0230 op=measurement_map
+  MUTANT m0240 op=gate_swap
+  MUTANT m0250 op=gate_delete
+[shard 9] done -> /var/tmp/jobfs/qmt_injected_9/injected_identity_swap_phase_equivalence_shard0009.jsonl
+'/var/tmp/jobfs/qmt_injected_9/injected_identity_swap_phase_equivalence_shard0009.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/injected_identity_swap_phase_equivalence_shard0009.jsonl'
+'/var/tmp/jobfs/qmt_injected_9/injected_summary_identity_swap_phase_equivalence_shard0009.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/injected_summary_identity_swap_phase_equivalence_shard0009.jsonl'
+[Tue Jun 16 17:37:38 AEST 2026] shard 9 done.
+
++------------------ Job Report: 13225610 (COMPLETED) ------------------+
+| Memory (RAM)  [                    ]  0.1% (155 MB peak / 200 GB)    |
+| CPU           [                    ]  1.5% average                   |
+| Time          [>                   ]  2.2% (0-00:07:48 / 0-06:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   0 B           0 B                      8                   |
+|   /fred   4 KB          14.3 KB                116                   |
+|   /home   0 B           0 B                      2                   |
+|   OS      0 B           0 B                      2                   |
+|                                                                      |
+| Warnings:                                                            |
+|   - Too much memory requested                                        |
+|   - CPU usage is low                                                 |
+|   - Too much time requested                                          |
++----------------------------------------------------------------------+

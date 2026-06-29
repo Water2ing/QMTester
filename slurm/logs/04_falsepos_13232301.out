@@ -1,0 +1,72 @@
+[Tue Jun 16 19:09:56 AEST 2026] node=gina13 RAM=503Gi
+[Tue Jun 16 19:09:56 AEST 2026] Running ideal false-positive check...
+  ghz_2_synth_16: fp=False n_admitted=30
+  ghz_2_synth_24: fp=False n_admitted=30
+  ghz_2_synth_32: fp=False n_admitted=30
+  ghz_2_synth_40: fp=False n_admitted=30
+  ghz_2_synth_48: fp=False n_admitted=30
+  ghz_2_synth_8: fp=False n_admitted=30
+  ghz_4_synth_10: fp=False n_admitted=56
+  ghz_4_synth_18: fp=False n_admitted=56
+  ghz_4_synth_2: fp=False n_admitted=56
+  ghz_4_synth_26: fp=False n_admitted=56
+  ghz_4_synth_34: fp=False n_admitted=56
+  ghz_4_synth_42: fp=False n_admitted=56
+  ghz_4_synth_50: fp=False n_admitted=56
+  ghz_6_synth_12: fp=False n_admitted=78
+  ghz_6_synth_20: fp=False n_admitted=78
+  ghz_6_synth_28: fp=False n_admitted=78
+  ghz_6_synth_36: fp=False n_admitted=78
+  ghz_6_synth_4: fp=False n_admitted=78
+  ghz_6_synth_44: fp=False n_admitted=78
+  ghz_8_synth_14: fp=False n_admitted=96
+  ghz_8_synth_22: fp=False n_admitted=96
+  ghz_8_synth_30: fp=False n_admitted=96
+  ghz_8_synth_38: fp=False n_admitted=96
+  ghz_8_synth_46: fp=False n_admitted=96
+  ghz_8_synth_6: fp=False n_admitted=96
+  qft_3_synth_17: fp=False n_admitted=41
+  qft_3_synth_25: fp=False n_admitted=41
+  qft_3_synth_33: fp=False n_admitted=41
+  qft_3_synth_41: fp=False n_admitted=41
+  qft_3_synth_49: fp=False n_admitted=41
+  qft_3_synth_9: fp=False n_admitted=41
+  qft_5_synth_11: fp=False n_admitted=57
+  qft_5_synth_19: fp=False n_admitted=57
+  qft_5_synth_27: fp=False n_admitted=57
+  qft_5_synth_3: fp=False n_admitted=57
+  qft_5_synth_35: fp=False n_admitted=57
+  qft_5_synth_43: fp=False n_admitted=57
+  qft_5_synth_51: fp=False n_admitted=57
+  qft_7_synth_13: fp=False n_admitted=73
+  qft_7_synth_21: fp=False n_admitted=73
+  qft_7_synth_29: fp=False n_admitted=73
+  qft_7_synth_37: fp=False n_admitted=73
+  qft_7_synth_45: fp=False n_admitted=73
+  qft_7_synth_5: fp=False n_admitted=73
+  qft_9_synth_15: fp=False n_admitted=89
+  qft_9_synth_23: fp=False n_admitted=89
+  qft_9_synth_31: fp=False n_admitted=89
+  qft_9_synth_39: fp=False n_admitted=89
+  qft_9_synth_47: fp=False n_admitted=89
+  qft_9_synth_7: fp=False n_admitted=89
+
+False positives: 0/50  (ideal)
+[Tue Jun 16 19:17:07 AEST 2026] Running noisy (uncalibrated) false-positive check...
+
++------------------ Job Report: 13232301 (CANCELLED) ------------------+
+| Memory (RAM)  [                    ]  2.2% (90 MB peak / 4 GB)       |
+| CPU           [################### ] 97.4% average                   |
+| Time          [>                   ]  4.6% (0-00:08:14 / 0-03:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   0 B           0 B                      5                   |
+|   /fred   220 KB        2.5 KB                 172                   |
+|   /home   12 KB         11.7 KB                  8                   |
+|                                                                      |
+| Warnings:                                                            |
+|   - Too much memory requested                                        |
+|   - Too much time requested                                          |
++----------------------------------------------------------------------+

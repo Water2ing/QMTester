@@ -1,0 +1,20 @@
+[Tue Jun 16 19:18:28 AEST 2026] node=gina17 RAM=503Gi
+[Tue Jun 16 19:18:28 AEST 2026] Running ideal false-positive check...
+
++------------------ Job Report: 13232410 (CANCELLED) ------------------+
+| Memory (RAM)  [#                   ]  8.7% (89 MB peak / 1 GB)       |
+| CPU           [################### ] 96.2% average                   |
+| Time          [>                   ]  3.2% (0-00:03:54 / 0-02:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   0 B           0 B                      2                   |
+|   /fred   84 KB         188 B                   80                   |
+|   /home   12 KB         0 B                      3                   |
+|   OS      0 B           0 B                      2                   |
+|                                                                      |
+| Warnings:                                                            |
+|   - Too much memory requested                                        |
+|   - Too much time requested                                          |
++----------------------------------------------------------------------+

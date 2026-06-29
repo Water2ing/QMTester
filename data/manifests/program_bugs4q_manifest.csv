@@ -1,0 +1,8 @@
+subject_id,bug_category,relations,buggy_path,fixed_path,buggy_detected,fixed_detected,buggy_min_p,fixed_min_p,n_admitted
+qiskit_github_17_program_measurement_order,Order during measurement,program_classical_remap,Aer/bug_7/buggy.py,Aer/bug_7/fixed.py,true,false,9.999000099990002e-05,1.0,1
+qiskit_stackoverflow_5_program_ccx_role,Label convention is reversed,program_input_permutation,stackoverflow-6-10/bug_1/buggy.py,stackoverflow-6-10/bug_1/fixed.py,true,false,9.999000099990002e-05,1.0,1
+qiskit_stackoverflow_1_program_teleport_feedback,Output Wrong,program_ancilla_uncompute,stackoverflow-1-5/1/buggy.py,stackoverflow-1-5/1/Fix.py,true,false,9.999000099990002e-05,1.0,1
+qiskit_stackexchange_3_program_ccx_uncompute,ccx,program_ancilla_uncompute,StackExchange/16/buggy.py,StackExchange/16/fix.py,true,false,9.999000099990002e-05,1.0,1
+qiskit_stackexchange_12_program_measurement_endian,Output,program_classical_remap,StackExchange/9/buggy.py,StackExchange/9/fix.py,true,false,9.999000099990002e-05,1.0,1
+qiskit_stackoverflow_7_program_qft_direction,QFT operation,program_qft_round_trip,stackoverflow-6-10/bug_3/buggy.py,stackoverflow-6-10/bug_3/fixed.py,true,false,9.999000099990002e-05,1.0,1
+qiskit_stackexchange_8_program_grover_uncompute,grover algorithm,program_ancilla_uncompute,StackExchange/4/buggy.py,StackExchange/4/fix.py,true,false,5.4687647634682545e-33,1.0,1

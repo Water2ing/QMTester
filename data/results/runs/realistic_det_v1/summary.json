@@ -1,0 +1,22 @@
+{
+  "detection": "7/7",
+  "false_positives": "1/7",
+  "by_family": {
+    "classical_remap": [
+      2,
+      2
+    ],
+    "input_permutation": [
+      1,
+      1
+    ],
+    "ancilla_uncompute": [
+      3,
+      3
+    ],
+    "qft_round_trip": [
+      1,
+      1
+    ]
+  }
+}

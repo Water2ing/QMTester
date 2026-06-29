@@ -1,0 +1,11 @@
+{
+  "n": 50,
+  "m_min": 30,
+  "m_median": 57,
+  "m_max": 96,
+  "thin_subject": "ghz_8_synth_14",
+  "thin_min_p": 0.0034996500349965005,
+  "thin_m": 96,
+  "thin_alpha_over_m": 0.0005208333333333333,
+  "false_positives": 0
+}

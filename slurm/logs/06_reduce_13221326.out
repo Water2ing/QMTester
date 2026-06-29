@@ -1,0 +1,16 @@
+[Tue Jun 16 15:55:07 AEST 2026] Reducing shards...
+Concatenating 74 shards -> /work/data/results/raw_runs.jsonl
+Wrote 73221 records to /work/data/results/raw_runs.jsonl
+[Tue Jun 16 15:55:12 AEST 2026] Deriving canonical metrics...
+Wrote 19 rows to /work/data/results/canonical_results.csv
+Canonical integrity check: PASS
+[Tue Jun 16 15:55:15 AEST 2026] Done. Canonical CSV at /fred/oz402/nhunguyen/ICSE_QMTester/data/results/canonical_results.csv
+
++------------------ Job Report: 13221326 (COMPLETED) ------------------+
+| Memory (RAM)  No data available                                      |
+| CPU           [                    ]  2.1% average                   |
+| Time          [>                   ]  0.3% (0-00:00:12 / 0-01:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   No data available                                                  |
++----------------------------------------------------------------------+

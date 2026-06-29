@@ -1,0 +1,380 @@
+[Tue Jun 16 18:13:58 AEST 2026] Shot budget: 4096
+Statevector([1.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j,
+             0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j,
+             0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j,
+             0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j,
+             0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j],
+            dims=(2, 2, 2, 2, 2))
+counts = {'001': 1}
+                    ┌───┐┌─┐        
+q_0: ────────────■──┤ H ├┤M├──────■─
+     ┌───┐     ┌─┴─┐└┬─┬┘└╥┘      │ 
+q_1: ┤ H ├──■──┤ X ├─┤M├──╫───■───┼─
+     └───┘┌─┴─┐└───┘ └╥┘  ║ ┌─┴─┐ │ 
+q_2: ─────┤ X ├───────╫───╫─┤ X ├─■─
+          └───┘       ║   ║ └───┘   
+c: 3/═════════════════╩═══╩═════════
+                      1   0         
+2
+{'0000': 51, '0100': 41, '0011': 97, '0111': 104, '1011': 107, '1111': 102, '0001': 41, '1100': 34, '0110': 39, '1000': 66, '1001': 49, '0101': 30, '1110': 33, '1010': 106, '0010': 85, '1101': 39}
+NoiseModel:
+  Basis gates: ['cz', 'h', 'id', 'rx', 'rz']
+  Instructions with noise: ['h', 'cz', 'rz', 'rx']
+  All-qubits errors: ['h', 'rx', 'rz', 'cz']
+
+Total count: {'011': 1000}
+ParameterView([Parameter(theta)])
+ParameterView([Parameter(theta)])
+      ┌──────┐
+qr_0: ┤1     ├
+      │      │
+qr_1: ┤0 ghz ├
+      │      │
+qr_2: ┤2     ├
+      └──┬───┘
+qr_3: ───■────
+              
+      ┌──────┐
+qr_0: ┤1     ├
+      │      │
+qr_1: ┤0 ghz ├
+      │      │
+qr_2: ┤2     ├
+      └──────┘
+qr_3: ────────
+              
+      ┌──────┐
+qr_0: ┤2     ├
+      │      │
+qr_1: ┤0     ├
+      │  ghz │
+qr_2: ┤      ├
+      │      │
+qr_3: ┤1     ├
+      └──────┘
+   ┌─────────────┐
+q: ┤ U(0,0,0.24) ├
+   └─────────────┘
+[[1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0.4-0.9j 0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0.9+0.4j 0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0.4-0.9j 0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0.9+0.4j 0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.9-0.4j 0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.4+0.9j 0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.9-0.4j 0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.4+0.9j]]
+000
+Statevector([0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j,
+             1.+0.j],
+            dims=(2, 2, 2))
+{'111': 1024}
+{'01': 236, '10': 251, '00': 267, '11': 270}
+        ┌───┐      ░ ┌─┐   
+   q_0: ┤ H ├──■───░─┤M├───
+        ├───┤┌─┴─┐ ░ └╥┘┌─┐
+   q_1: ┤ H ├┤ X ├─░──╫─┤M├
+        └───┘└───┘ ░  ║ └╥┘
+meas: 2/══════════════╩══╩═
+                      0  1 
+{'101': 500}
+{'00 00': 260, '01 00': 256, '11 00': 246, '10 00': 262}
+[QuantumRegister(1, 'q35')]
+[]
+ParameterView([ParameterVectorElement(θ[0]), ParameterVectorElement(θ[1]), ParameterVectorElement(θ[2]), ParameterVectorElement(θ[3]), ParameterVectorElement(θ[4]), ParameterVectorElement(θ[5]), ParameterVectorElement(θ[6]), ParameterVectorElement(θ[7])])
+0.001
+[shard 0] 250 mutants
+  MUTANT m0001 op=measurement_map
+  MUTANT m0002 op=gate_delete
+  MUTANT m0003 op=gate_swap
+  MUTANT m0004 op=gate_swap
+  MUTANT m0005 op=gate_swap
+  MUTANT m0006 op=gate_replace
+  MUTANT m0007 op=gate_replace
+  MUTANT m0008 op=gate_delete
+  MUTANT m0009 op=gate_replace
+  MUTANT m0010 op=gate_replace
+  MUTANT m0011 op=gate_delete
+  MUTANT m0012 op=gate_replace
+  MUTANT m0013 op=gate_replace
+  MUTANT m0014 op=qubit_index
+  MUTANT m0015 op=measurement_map
+  MUTANT m0016 op=gate_delete
+  MUTANT m0017 op=qubit_index
+  MUTANT m0018 op=gate_swap
+  MUTANT m0019 op=gate_replace
+  MUTANT m0020 op=qubit_index
+  MUTANT m0021 op=measurement_map
+  MUTANT m0022 op=measurement_map
+  MUTANT m0023 op=qubit_index
+  MUTANT m0024 op=measurement_map
+  MUTANT m0025 op=measurement_map
+  MUTANT m0026 op=gate_swap
+  MUTANT m0027 op=gate_replace
+  MUTANT m0028 op=gate_delete
+  MUTANT m0029 op=gate_swap
+  MUTANT m0030 op=measurement_map
+  MUTANT m0031 op=gate_replace
+  MUTANT m0032 op=gate_swap
+  MUTANT m0033 op=gate_replace
+  MUTANT m0034 op=gate_swap
+  MUTANT m0035 op=qubit_index
+  MUTANT m0036 op=qubit_index
+  MUTANT m0037 op=qubit_index
+  MUTANT m0038 op=gate_replace
+  MUTANT m0039 op=gate_delete
+  MUTANT m0040 op=qubit_index
+  MUTANT m0041 op=gate_replace
+  MUTANT m0042 op=gate_swap
+  MUTANT m0043 op=qubit_index
+  MUTANT m0044 op=gate_delete
+  MUTANT m0045 op=gate_swap
+  MUTANT m0046 op=qubit_index
+  MUTANT m0047 op=gate_delete
+  MUTANT m0048 op=qubit_index
+  MUTANT m0049 op=gate_delete
+  MUTANT m0050 op=gate_swap
+  MUTANT m0051 op=gate_delete
+  MUTANT m0052 op=measurement_map
+  MUTANT m0053 op=qubit_index
+  MUTANT m0054 op=measurement_map
+  MUTANT m0055 op=measurement_map
+  MUTANT m0056 op=gate_delete
+  MUTANT m0057 op=gate_replace
+  MUTANT m0058 op=qubit_index
+  MUTANT m0059 op=gate_replace
+  MUTANT m0060 op=qubit_index
+  MUTANT m0061 op=gate_delete
+  MUTANT m0062 op=gate_swap
+  MUTANT m0063 op=gate_replace
+  MUTANT m0064 op=gate_delete
+  MUTANT m0065 op=gate_replace
+  MUTANT m0066 op=gate_delete
+  MUTANT m0067 op=measurement_map
+  MUTANT m0068 op=qubit_index
+  MUTANT m0069 op=gate_swap
+  MUTANT m0070 op=qubit_index
+  MUTANT m0071 op=measurement_map
+  MUTANT m0072 op=gate_delete
+  MUTANT m0073 op=gate_swap
+  MUTANT m0074 op=gate_swap
+  MUTANT m0075 op=gate_delete
+  MUTANT m0076 op=gate_swap
+  MUTANT m0077 op=gate_swap
+  MUTANT m0078 op=gate_replace
+  MUTANT m0079 op=qubit_index
+  MUTANT m0080 op=qubit_index
+  MUTANT m0081 op=gate_replace
+  MUTANT m0082 op=gate_swap
+  MUTANT m0083 op=gate_delete
+  MUTANT m0084 op=gate_replace
+  MUTANT m0085 op=qubit_index
+  MUTANT m0086 op=qubit_index
+  MUTANT m0087 op=qubit_index
+  MUTANT m0088 op=qubit_index
+  MUTANT m0089 op=measurement_map
+  MUTANT m0090 op=gate_replace
+  MUTANT m0091 op=measurement_map
+  MUTANT m0092 op=gate_delete
+  MUTANT m0093 op=qubit_index
+  MUTANT m0094 op=gate_delete
+  MUTANT m0095 op=measurement_map
+  MUTANT m0096 op=qubit_index
+  MUTANT m0097 op=gate_delete
+  MUTANT m0098 op=gate_delete
+  MUTANT m0099 op=measurement_map
+  MUTANT m0100 op=gate_replace
+  MUTANT m0101 op=qubit_index
+  MUTANT m0102 op=measurement_map
+  MUTANT m0103 op=measurement_map
+  MUTANT m0104 op=measurement_map
+  MUTANT m0105 op=gate_delete
+  MUTANT m0106 op=gate_delete
+  MUTANT m0107 op=gate_delete
+  MUTANT m0108 op=gate_swap
+  MUTANT m0109 op=qubit_index
+  MUTANT m0110 op=qubit_index
+  MUTANT m0111 op=measurement_map
+  MUTANT m0112 op=qubit_index
+  MUTANT m0113 op=qubit_index
+  MUTANT m0114 op=qubit_index
+  MUTANT m0115 op=gate_delete
+  MUTANT m0116 op=gate_replace
+  MUTANT m0117 op=gate_delete
+  MUTANT m0118 op=gate_delete
+  MUTANT m0119 op=gate_swap
+  MUTANT m0120 op=qubit_index
+  MUTANT m0121 op=phase_flip
+  MUTANT m0122 op=gate_delete
+  MUTANT m0123 op=qubit_index
+  MUTANT m0124 op=measurement_map
+  MUTANT m0125 op=measurement_map
+  MUTANT m0126 op=qubit_index
+  MUTANT m0127 op=gate_delete
+  MUTANT m0128 op=gate_delete
+  MUTANT m0129 op=qubit_index
+  MUTANT m0130 op=gate_delete
+  MUTANT m0131 op=gate_swap
+  MUTANT m0132 op=gate_swap
+  MUTANT m0133 op=gate_delete
+  MUTANT m0134 op=gate_replace
+  MUTANT m0135 op=measurement_map
+  MUTANT m0136 op=phase_flip
+  MUTANT m0137 op=qubit_index
+  MUTANT m0138 op=gate_replace
+  MUTANT m0139 op=qubit_index
+  MUTANT m0140 op=measurement_map
+  MUTANT m0141 op=qubit_index
+  MUTANT m0142 op=qubit_index
+  MUTANT m0143 op=measurement_map
+  MUTANT m0144 op=measurement_map
+  MUTANT m0145 op=gate_swap
+  MUTANT m0146 op=gate_swap
+  MUTANT m0147 op=qubit_index
+  MUTANT m0148 op=gate_replace
+  MUTANT m0149 op=gate_delete
+  MUTANT m0150 op=gate_swap
+  MUTANT m0151 op=qubit_index
+  MUTANT m0152 op=gate_delete
+  MUTANT m0153 op=qubit_index
+  MUTANT m0154 op=qubit_index
+  MUTANT m0155 op=gate_swap
+  MUTANT m0156 op=phase_flip
+  MUTANT m0157 op=qubit_index
+  MUTANT m0158 op=measurement_map
+  MUTANT m0159 op=phase_flip
+  MUTANT m0160 op=gate_delete
+  MUTANT m0161 op=qubit_index
+  MUTANT m0162 op=gate_replace
+  MUTANT m0163 op=gate_delete
+  MUTANT m0164 op=measurement_map
+  MUTANT m0165 op=measurement_map
+  MUTANT m0166 op=qubit_index
+  MUTANT m0167 op=gate_replace
+  MUTANT m0168 op=gate_delete
+  MUTANT m0169 op=gate_swap
+  MUTANT m0170 op=gate_delete
+  MUTANT m0171 op=gate_swap
+  MUTANT m0172 op=qubit_index
+  MUTANT m0173 op=phase_flip
+  MUTANT m0174 op=qubit_index
+  MUTANT m0175 op=measurement_map
+  MUTANT m0176 op=gate_replace
+  MUTANT m0177 op=qubit_index
+  MUTANT m0178 op=qubit_index
+  MUTANT m0179 op=gate_delete
+  MUTANT m0180 op=gate_swap
+  MUTANT m0181 op=gate_swap
+  MUTANT m0182 op=measurement_map
+  MUTANT m0183 op=gate_delete
+  MUTANT m0184 op=qubit_index
+  MUTANT m0185 op=gate_swap
+  MUTANT m0186 op=gate_delete
+  MUTANT m0187 op=gate_delete
+  MUTANT m0188 op=phase_flip
+  MUTANT m0189 op=gate_delete
+  MUTANT m0190 op=measurement_map
+  MUTANT m0191 op=measurement_map
+  MUTANT m0192 op=qubit_index
+  MUTANT m0193 op=gate_delete
+  MUTANT m0194 op=gate_delete
+  MUTANT m0195 op=qubit_index
+  MUTANT m0196 op=qubit_index
+  MUTANT m0197 op=qubit_index
+  MUTANT m0198 op=gate_delete
+  MUTANT m0199 op=gate_delete
+  MUTANT m0200 op=qubit_index
+  MUTANT m0201 op=gate_swap
+  MUTANT m0202 op=phase_flip
+  MUTANT m0203 op=phase_flip
+  MUTANT m0204 op=gate_delete
+  MUTANT m0205 op=qubit_index
+  MUTANT m0206 op=gate_replace
+  MUTANT m0207 op=qubit_index
+  MUTANT m0208 op=gate_swap
+  MUTANT m0209 op=phase_flip
+  MUTANT m0210 op=measurement_map
+  MUTANT m0211 op=measurement_map
+  MUTANT m0212 op=gate_swap
+  MUTANT m0213 op=qubit_index
+  MUTANT m0214 op=gate_swap
+  MUTANT m0215 op=qubit_index
+  MUTANT m0216 op=qubit_index
+  MUTANT m0217 op=gate_delete
+  MUTANT m0218 op=gate_delete
+  MUTANT m0219 op=gate_delete
+  MUTANT m0220 op=phase_flip
+  MUTANT m0221 op=measurement_map
+  MUTANT m0222 op=gate_swap
+  MUTANT m0223 op=qubit_index
+  MUTANT m0224 op=qubit_index
+  MUTANT m0225 op=gate_replace
+  MUTANT m0226 op=gate_replace
+  MUTANT m0227 op=gate_replace
+  MUTANT m0228 op=measurement_map
+  MUTANT m0229 op=qubit_index
+  MUTANT m0230 op=measurement_map
+  MUTANT m0231 op=measurement_map
+  MUTANT m0232 op=measurement_map
+  MUTANT m0233 op=measurement_map
+  MUTANT m0234 op=gate_delete
+  MUTANT m0235 op=gate_replace
+  MUTANT m0236 op=qubit_index
+  MUTANT m0237 op=measurement_map
+  MUTANT m0238 op=gate_delete
+  MUTANT m0239 op=gate_replace
+  MUTANT m0240 op=qubit_index
+  MUTANT m0241 op=gate_delete
+  MUTANT m0242 op=gate_delete
+  MUTANT m0243 op=phase_flip
+  MUTANT m0244 op=qubit_index
+  MUTANT m0245 op=gate_swap
+  MUTANT m0246 op=qubit_index
+  MUTANT m0247 op=qubit_index
+  MUTANT m0248 op=gate_swap
+  MUTANT m0249 op=gate_delete
+  MUTANT m0250 op=gate_swap
+[shard 0] done -> /var/tmp/jobfs/qmt_shots_4096/injected_identity_swap_phase_equivalence_shard0000_shots_4096.jsonl
+'/var/tmp/jobfs/qmt_shots_4096/injected_identity_swap_phase_equivalence_shard0000_shots_4096.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/injected_identity_swap_phase_equivalence_shard0000_shots_4096.jsonl'
+'/var/tmp/jobfs/qmt_shots_4096/injected_summary_identity_swap_phase_equivalence_shard0000_shots_4096.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/injected_summary_identity_swap_phase_equivalence_shard0000_shots_4096.jsonl'
+[Tue Jun 16 18:56:50 AEST 2026] shot=4096 done.
+
++------------------ Job Report: 13226156 (COMPLETED) ------------------+
+| Memory (RAM)  [                    ]  0.1% (154 MB peak / 200 GB)    |
+| CPU           [                    ]  1.5% average                   |
+| Time          [->                  ]  8.9% (0-00:42:56 / 0-08:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /fred   48 KB         8.9 KB                   0                   |
+|   /home   12 KB         0 B                      0                   |
+|                                                                      |
+| Warnings:                                                            |
+|   - Too much memory requested                                        |
+|   - CPU usage is low                                                 |
+|   - Too much time requested                                          |
++----------------------------------------------------------------------+

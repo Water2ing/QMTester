@@ -1,0 +1,8 @@
+subject_id,buggy_path,fixed_path,reason
+qiskit_github_12,Terra-6000-7100/6571_Bug/bug_version.py,Terra-6000-7100/6571_Fixed/fixed_version.py,measure_all changes classical register shape; no bijective canonical map
+qiskit_stackexchange_2,StackExchange/15/buggy.py,StackExchange/15/fix.py,QPE/IQFT candidate relation not yet shown to detect buggy and pass fixed
+qiskit_github_16,Aer/bug_1/buggy.py,Aer/bug_1/fixed.py,statevector-after-measurement API issue; no count-vector program relation in current families
+qiskit_stackexchange_6,StackExchange/1/buggy.py,StackExchange/1/fix.py,uses mid-circuit measurement and conditionals; rejected by current soundness policy
+qiskit_stackexchange_18,StackExchange_2/bug_2/buggy.py,StackExchange_2/bug_2/fixed.py,statevector label visualization issue; audited count-vector remap relation is not sound after H/CX
+qiskit_stackoverflow_6,stackoverflow-6-10/bug_2/buggy.py,stackoverflow-6-10/bug_2/fixed.py,"wrong-operation Bell-state case needs an explicit expected-state oracle extension, not a current relation family"
+qiskit_github_14,Terra-6000-7100/6255_Bug/bug_version.py,Terra-6000-7100/6255_Fixed/fixed_version.py,opflow expectation-value bug; requires relation-specific expectation oracle extension

@@ -1,0 +1,9 @@
+cohort,mode,detected,n_buggy,detection_rate,det_ci_low,det_ci_high,false_pos,n_fixed,fp_rate,fp_ci_low,fp_ci_high
+Bugs4Q,full,7,7,1.0,0.6457,1.0,0,7,0.0,0.0,0.3543
+Bugs4Q,same_input,0,7,0.0,0.0,0.3543,0,7,0.0,0.0,0.3543
+Bugs4Q,no_canon_chi2,5,7,0.7143,0.3589,0.9178,2,7,0.2857,0.0822,0.6411
+Bugs4Q,raw_equality,5,7,0.7143,0.3589,0.9178,2,7,0.2857,0.0822,0.6411
+Injected,full,100,100,1.0,0.963,1.0,0,100,0.0,0.0,0.037
+Injected,same_input,0,100,0.0,0.0,0.037,0,100,0.0,0.0,0.037
+Injected,no_canon_chi2,60,100,0.6,0.502,0.6906,40,100,0.4,0.3094,0.498
+Injected,raw_equality,60,100,0.6,0.502,0.6906,40,100,0.4,0.3094,0.498

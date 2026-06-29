@@ -1,0 +1,10 @@
+[Tue Jun 16 19:08:46 AEST 2026] Ablation config 0: identity
+
++------------------ Job Report: 13232284 (CANCELLED) ------------------+
+| Memory (RAM)  No data available                                      |
+| CPU           [############        ] 63.3% average                   |
+| Time          [>                   ]  0.3% (0-00:00:30 / 0-03:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   No data available                                                  |
++----------------------------------------------------------------------+

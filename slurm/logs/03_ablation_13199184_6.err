@@ -1,0 +1,32 @@
+INFO:    gocryptfs not found, will not be able to use gocryptfs
+/work/vendor/bugs4q/stackoverflow-6-10/bug_1/buggy.py:17: DeprecationWarning: Using a qobj for run() is deprecated as of qiskit-aer 0.9.0 and will be removed no sooner than 3 months from that release date. Transpiled circuits should now be passed directly using `backend.run(circuits, **run_options).
+  statevector=backend.run(assemble(circuit)).result().get_statevector()
+/work/vendor/bugs4q/stackoverflow-6-10/bug_1/buggy.py:20: DeprecationWarning: Using a qobj for run() is deprecated as of qiskit-aer 0.9.0 and will be removed no sooner than 3 months from that release date. Transpiled circuits should now be passed directly using `backend.run(circuits, **run_options).
+  counts1=backend.run(assemble(circuit)).result().get_counts()
+/work/vendor/bugs4q/StackExchange-page-1-25/Bug_14/bug_version.py:1: DeprecationWarning: The module 'qiskit.test.mock' is deprecated since Qiskit Terra 0.21.0, and will be removed 3 months or more later. Instead, you should import the desired object directly 'qiskit.providers.fake_provider'.
+  from qiskit.test.mock import FakeTokyo
+/work/vendor/bugs4q/StackExchange-page-1-25/Bug_19/bug_version.py:28: DeprecationWarning: Using a qobj for run() is deprecated as of qiskit-aer 0.9.0 and will be removed no sooner than 3 months from that release date. Transpiled circuits should now be passed directly using `backend.run(circuits, **run_options).
+  unitary = usim.run(qobj).result().get_unitary()
+Simulation failed and returned the following error message:
+ERROR: Failed to load qobj: Invalid operation "initialize" ("params" is incorrect length).
+Simulation failed and returned the following error message:
+ERROR: Failed to load circuits: Duplicate key "statevector" in save instruction.
+Traceback (most recent call last):
+  File "/work/scripts/run_bugs4q.py", line 129, in <module>
+    main()
+  File "/work/scripts/run_bugs4q.py", line 80, in main
+    result = run_subject(
+             ^^^^^^^^^^^^
+  File "/work/artifact/qmtester/pipeline.py", line 151, in run_subject
+    ok, reason, src_can, fu_can = canonicalize(src_counts, fu_counts, cand.canon_map)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/artifact/qmtester/canonicalize.py", line 73, in canonicalize
+    new_key = remap(key)
+              ^^^^^^^^^^
+  File "/work/artifact/qmtester/canonicalize.py", line 64, in remap
+    fu_bits = [int(bitstring[n - 1 - i]) for i in range(n)]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/artifact/qmtester/canonicalize.py", line 64, in <listcomp>
+    fu_bits = [int(bitstring[n - 1 - i]) for i in range(n)]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ' '

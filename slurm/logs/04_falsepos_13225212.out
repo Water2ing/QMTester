@@ -1,0 +1,186 @@
+[Tue Jun 16 16:13:42 AEST 2026] node=dave145 RAM=251Gi
+[Tue Jun 16 16:13:42 AEST 2026] Running ideal false-positive check...
+  ghz_2_synth_16: fp=False n_admitted=30
+  ghz_2_synth_24: fp=False n_admitted=30
+  ghz_2_synth_32: fp=False n_admitted=30
+  ghz_2_synth_40: fp=False n_admitted=30
+  ghz_2_synth_48: fp=False n_admitted=30
+  ghz_2_synth_8: fp=False n_admitted=30
+  ghz_4_synth_10: fp=False n_admitted=54
+  ghz_4_synth_18: fp=False n_admitted=54
+  ghz_4_synth_2: fp=False n_admitted=54
+  ghz_4_synth_26: fp=False n_admitted=54
+  ghz_4_synth_34: fp=False n_admitted=54
+  ghz_4_synth_42: fp=False n_admitted=54
+  ghz_4_synth_50: fp=False n_admitted=54
+  ghz_6_synth_12: fp=False n_admitted=71
+  ghz_6_synth_20: fp=False n_admitted=71
+  ghz_6_synth_28: fp=False n_admitted=71
+  ghz_6_synth_36: fp=False n_admitted=71
+  ghz_6_synth_4: fp=False n_admitted=71
+  ghz_6_synth_44: fp=False n_admitted=71
+  ghz_8_synth_14: fp=False n_admitted=87
+  ghz_8_synth_22: fp=False n_admitted=87
+  ghz_8_synth_30: fp=False n_admitted=87
+  ghz_8_synth_38: fp=False n_admitted=87
+  ghz_8_synth_46: fp=False n_admitted=87
+  ghz_8_synth_6: fp=False n_admitted=87
+  qft_3_synth_17: fp=False n_admitted=45
+  qft_3_synth_25: fp=False n_admitted=45
+  qft_3_synth_33: fp=False n_admitted=45
+  qft_3_synth_41: fp=False n_admitted=45
+  qft_3_synth_49: fp=False n_admitted=45
+  qft_3_synth_9: fp=False n_admitted=45
+  qft_5_synth_11: fp=False n_admitted=63
+  qft_5_synth_19: fp=False n_admitted=63
+  qft_5_synth_27: fp=False n_admitted=63
+  qft_5_synth_3: fp=False n_admitted=63
+  qft_5_synth_35: fp=False n_admitted=63
+  qft_5_synth_43: fp=False n_admitted=63
+  qft_5_synth_51: fp=False n_admitted=63
+  qft_7_synth_13: fp=False n_admitted=79
+  qft_7_synth_21: fp=False n_admitted=79
+  qft_7_synth_29: fp=False n_admitted=79
+  qft_7_synth_37: fp=False n_admitted=79
+  qft_7_synth_45: fp=False n_admitted=79
+  qft_7_synth_5: fp=False n_admitted=79
+  qft_9_synth_15: fp=False n_admitted=95
+  qft_9_synth_23: fp=False n_admitted=95
+  qft_9_synth_31: fp=False n_admitted=95
+  qft_9_synth_39: fp=False n_admitted=95
+  qft_9_synth_47: fp=False n_admitted=95
+  qft_9_synth_7: fp=False n_admitted=95
+
+False positives: 0/50  (ideal)
+[Tue Jun 16 16:19:34 AEST 2026] Running noisy (uncalibrated) false-positive check...
+  ghz_2_synth_16: fp=False n_admitted=30
+  ghz_2_synth_24: fp=False n_admitted=30
+  ghz_2_synth_32: fp=False n_admitted=30
+  ghz_2_synth_40: fp=False n_admitted=30
+  ghz_2_synth_48: fp=False n_admitted=30
+  ghz_2_synth_8: fp=False n_admitted=30
+  ghz_4_synth_10: fp=False n_admitted=54
+  ghz_4_synth_18: fp=False n_admitted=54
+  ghz_4_synth_2: fp=False n_admitted=54
+  ghz_4_synth_26: fp=False n_admitted=54
+  ghz_4_synth_34: fp=False n_admitted=54
+  ghz_4_synth_42: fp=False n_admitted=54
+  ghz_4_synth_50: fp=False n_admitted=54
+  ghz_6_synth_12: fp=False n_admitted=71
+  ghz_6_synth_20: fp=False n_admitted=71
+  ghz_6_synth_28: fp=False n_admitted=71
+  ghz_6_synth_36: fp=False n_admitted=71
+  ghz_6_synth_4: fp=False n_admitted=71
+  ghz_6_synth_44: fp=False n_admitted=71
+  ghz_8_synth_14: fp=False n_admitted=87
+  ghz_8_synth_22: fp=False n_admitted=87
+  ghz_8_synth_30: fp=False n_admitted=87
+  ghz_8_synth_38: fp=False n_admitted=87
+  ghz_8_synth_46: fp=False n_admitted=87
+  ghz_8_synth_6: fp=False n_admitted=87
+  qft_3_synth_17: fp=False n_admitted=45
+  qft_3_synth_25: fp=False n_admitted=45
+  qft_3_synth_33: fp=False n_admitted=45
+  qft_3_synth_41: fp=False n_admitted=45
+  qft_3_synth_49: fp=False n_admitted=45
+  qft_3_synth_9: fp=False n_admitted=45
+  qft_5_synth_11: fp=False n_admitted=63
+  qft_5_synth_19: fp=False n_admitted=63
+  qft_5_synth_27: fp=False n_admitted=63
+  qft_5_synth_3: fp=False n_admitted=63
+  qft_5_synth_35: fp=False n_admitted=63
+  qft_5_synth_43: fp=False n_admitted=63
+  qft_5_synth_51: fp=False n_admitted=63
+  qft_7_synth_13: fp=False n_admitted=79
+  qft_7_synth_21: fp=False n_admitted=79
+  qft_7_synth_29: fp=False n_admitted=79
+  qft_7_synth_37: fp=False n_admitted=79
+  qft_7_synth_45: fp=False n_admitted=79
+  qft_7_synth_5: fp=False n_admitted=79
+  qft_9_synth_15: fp=False n_admitted=95
+  qft_9_synth_23: fp=False n_admitted=95
+  qft_9_synth_31: fp=False n_admitted=95
+  qft_9_synth_39: fp=False n_admitted=95
+  qft_9_synth_47: fp=False n_admitted=95
+  qft_9_synth_7: fp=False n_admitted=95
+
+False positives: 0/50  (noisy)
+[Tue Jun 16 16:26:09 AEST 2026] Running noisy+calibrated false-positive check...
+  ghz_2_synth_16: fp=False n_admitted=30
+  ghz_2_synth_24: fp=False n_admitted=30
+  ghz_2_synth_32: fp=False n_admitted=30
+  ghz_2_synth_40: fp=False n_admitted=30
+  ghz_2_synth_48: fp=False n_admitted=30
+  ghz_2_synth_8: fp=False n_admitted=30
+  ghz_4_synth_10: fp=False n_admitted=54
+  ghz_4_synth_18: fp=False n_admitted=54
+  ghz_4_synth_2: fp=False n_admitted=54
+  ghz_4_synth_26: fp=False n_admitted=54
+  ghz_4_synth_34: fp=False n_admitted=54
+  ghz_4_synth_42: fp=False n_admitted=54
+  ghz_4_synth_50: fp=False n_admitted=54
+  ghz_6_synth_12: fp=False n_admitted=71
+  ghz_6_synth_20: fp=False n_admitted=71
+  ghz_6_synth_28: fp=False n_admitted=71
+  ghz_6_synth_36: fp=False n_admitted=71
+  ghz_6_synth_4: fp=False n_admitted=71
+  ghz_6_synth_44: fp=False n_admitted=71
+  ghz_8_synth_14: fp=False n_admitted=87
+  ghz_8_synth_22: fp=False n_admitted=87
+  ghz_8_synth_30: fp=False n_admitted=87
+  ghz_8_synth_38: fp=False n_admitted=87
+  ghz_8_synth_46: fp=False n_admitted=87
+  ghz_8_synth_6: fp=False n_admitted=87
+  qft_3_synth_17: fp=False n_admitted=45
+  qft_3_synth_25: fp=False n_admitted=45
+  qft_3_synth_33: fp=False n_admitted=45
+  qft_3_synth_41: fp=False n_admitted=45
+  qft_3_synth_49: fp=False n_admitted=45
+  qft_3_synth_9: fp=False n_admitted=45
+  qft_5_synth_11: fp=False n_admitted=63
+  qft_5_synth_19: fp=False n_admitted=63
+  qft_5_synth_27: fp=False n_admitted=63
+  qft_5_synth_3: fp=False n_admitted=63
+  qft_5_synth_35: fp=False n_admitted=63
+  qft_5_synth_43: fp=False n_admitted=63
+  qft_5_synth_51: fp=False n_admitted=63
+  qft_7_synth_13: fp=False n_admitted=79
+  qft_7_synth_21: fp=False n_admitted=79
+  qft_7_synth_29: fp=False n_admitted=79
+  qft_7_synth_37: fp=False n_admitted=79
+  qft_7_synth_45: fp=False n_admitted=79
+  qft_7_synth_5: fp=False n_admitted=79
+  qft_9_synth_15: fp=False n_admitted=95
+  qft_9_synth_23: fp=False n_admitted=95
+  qft_9_synth_31: fp=False n_admitted=95
+  qft_9_synth_39: fp=False n_admitted=95
+  qft_9_synth_47: fp=False n_admitted=95
+  qft_9_synth_7: fp=False n_admitted=95
+
+False positives: 0/50  (noisy_cal)
+'/var/tmp/jobfs/qmt_falsepos/ideal/falsepos_ideal.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/falsepos_ideal.jsonl'
+'/var/tmp/jobfs/qmt_falsepos/ideal/falsepos_summary_ideal.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/falsepos_summary_ideal.jsonl'
+'/var/tmp/jobfs/qmt_falsepos/noisy/falsepos_noisy.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/falsepos_noisy.jsonl'
+'/var/tmp/jobfs/qmt_falsepos/noisy/falsepos_summary_noisy.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/falsepos_summary_noisy.jsonl'
+'/var/tmp/jobfs/qmt_falsepos/noisy_cal/falsepos_noisy_cal.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/falsepos_noisy_cal.jsonl'
+'/var/tmp/jobfs/qmt_falsepos/noisy_cal/falsepos_summary_noisy_cal.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/falsepos_summary_noisy_cal.jsonl'
+[Tue Jun 16 16:33:26 AEST 2026] falsepos done.
+
++------------------ Job Report: 13225212 (COMPLETED) ------------------+
+| Memory (RAM)  [                    ]  0.2% (100 MB peak / 64 GB)     |
+| CPU           [#                   ]  6.1% average                   |
+| Time          [->                  ]  5.5% (0-00:19:51 / 0-06:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   83.9 MB       0 B                     29                   |
+|   /fred   64.3 MB       6.9 KB                 386                   |
+|   /home   12 KB         0 B                      9                   |
+|   OS      0 B           0 B                      2                   |
+|                                                                      |
+| Warnings:                                                            |
+|   - Too much memory requested                                        |
+|   - CPU usage is low                                                 |
+|   - Too much time requested                                          |
++----------------------------------------------------------------------+

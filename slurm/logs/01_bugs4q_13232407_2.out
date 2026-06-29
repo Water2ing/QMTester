@@ -1,0 +1,27 @@
+[Tue Jun 16 19:18:28 AEST 2026] node=dave20 shard=2
+[shard 2/6] loading manifest /work/data/manifests/bugs4q_manifest.csv...
+  3 subjects in this shard
+  RUN  qiskit_github_12 (2q)
+  RUN  qiskit_stackexchange_15 (4q)
+  RUN  qiskit_stackoverflow_5 (3q)
+[shard 2] done -> /var/tmp/jobfs/qmt_bugs4q_2/raw_runs_shard0002.jsonl
+[Tue Jun 16 19:19:10 AEST 2026] Copying shards back to /fred...
+'/var/tmp/jobfs/qmt_bugs4q_2/morphq_shard0002.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/hpc_resource_fix_1g_20260616T091805Z/shards/morphq_shard0002.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_2/morphq_summary_shard0002.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/hpc_resource_fix_1g_20260616T091805Z/shards/morphq_summary_shard0002.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_2/raw_runs_shard0002.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/hpc_resource_fix_1g_20260616T091805Z/shards/raw_runs_shard0002.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_2/summary_shard0002.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/hpc_resource_fix_1g_20260616T091805Z/shards/summary_shard0002.jsonl'
+[Tue Jun 16 19:19:10 AEST 2026] shard 2 done.
+
++------------------ Job Report: 13232415 (COMPLETED) ------------------+
+| Memory (RAM)  No data available                                      |
+| CPU           [################    ] 83.3% average                   |
+| Time          [>                   ]  2.7% (0-00:00:48 / 0-00:30:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   0 B           0 B                      4                   |
+|   /fred   0 B           116 B                   30                   |
+|   /home   0 B           0 B                      1                   |
+|   OS      0 B           0 B                      2                   |
++----------------------------------------------------------------------+

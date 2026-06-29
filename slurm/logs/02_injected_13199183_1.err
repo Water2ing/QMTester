@@ -1,0 +1,26 @@
+INFO:    gocryptfs not found, will not be able to use gocryptfs
+/work/vendor/bugs4q/stackoverflow-6-10/bug_1/buggy.py:17: DeprecationWarning: Using a qobj for run() is deprecated as of qiskit-aer 0.9.0 and will be removed no sooner than 3 months from that release date. Transpiled circuits should now be passed directly using `backend.run(circuits, **run_options).
+  statevector=backend.run(assemble(circuit)).result().get_statevector()
+/work/vendor/bugs4q/stackoverflow-6-10/bug_1/buggy.py:20: DeprecationWarning: Using a qobj for run() is deprecated as of qiskit-aer 0.9.0 and will be removed no sooner than 3 months from that release date. Transpiled circuits should now be passed directly using `backend.run(circuits, **run_options).
+  counts1=backend.run(assemble(circuit)).result().get_counts()
+/work/vendor/bugs4q/StackExchange-page-1-25/Bug_14/bug_version.py:1: DeprecationWarning: The module 'qiskit.test.mock' is deprecated since Qiskit Terra 0.21.0, and will be removed 3 months or more later. Instead, you should import the desired object directly 'qiskit.providers.fake_provider'.
+  from qiskit.test.mock import FakeTokyo
+/work/vendor/bugs4q/StackExchange-page-1-25/Bug_19/bug_version.py:28: DeprecationWarning: Using a qobj for run() is deprecated as of qiskit-aer 0.9.0 and will be removed no sooner than 3 months from that release date. Transpiled circuits should now be passed directly using `backend.run(circuits, **run_options).
+  unitary = usim.run(qobj).result().get_unitary()
+Simulation failed and returned the following error message:
+ERROR: Failed to load qobj: Invalid operation "initialize" ("params" is incorrect length).
+Simulation failed and returned the following error message:
+ERROR: Failed to load circuits: Duplicate key "statevector" in save instruction.
+Traceback (most recent call last):
+  File "/work/scripts/run_injected.py", line 111, in <module>
+    main()
+  File "/work/scripts/run_injected.py", line 65, in main
+    mutants = generate_mutants(valid_qcs, n_total=250, seed=args.seed)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/faults/mutator.py", line 179, in generate_mutants
+    result = fn(qc, rng)
+             ^^^^^^^^^^^
+  File "/work/faults/mutator.py", line 82, in _mutant_qubit_index
+    out.data = new_data
+    ^^^^^^^^
+AttributeError: property 'data' of 'EfficientSU2' object has no setter

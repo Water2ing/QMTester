@@ -1,0 +1,50 @@
+[Tue Jun 16 19:29:59 AEST 2026] Ablation config 1: swap
+[shard 0/1] loading manifest /work/data/manifests/bugs4q_manifest.csv...
+  32 subjects in this shard
+  RUN  qiskit_github_1 (3q)
+  RUN  qiskit_github_10 (1q)
+  RUN  qiskit_github_11 (1q)
+  RUN  qiskit_github_12 (2q)
+  RUN  qiskit_github_13 (3q)
+  RUN  qiskit_github_16 (5q)
+  RUN  qiskit_github_17 (3q)
+  RUN  qiskit_github_2 (16q)
+  RUN  qiskit_github_3 (2q)
+  RUN  qiskit_github_4 (1q)
+  RUN  qiskit_github_6 (2q)
+  RUN  qiskit_github_7 (4q)
+  RUN  qiskit_github_8 (4q)
+  RUN  qiskit_stackexchange_1 (1q)
+  RUN  qiskit_stackexchange_10 (5q)
+  RUN  qiskit_stackexchange_11 (2q)
+  RUN  qiskit_stackexchange_12 (3q)
+  RUN  qiskit_stackexchange_13 (4q)
+  RUN  qiskit_stackexchange_14 (2q)
+  RUN  qiskit_stackexchange_15 (4q)
+  RUN  qiskit_stackexchange_16 (2q)
+  RUN  qiskit_stackexchange_17 (1q)
+  RUN  qiskit_stackexchange_2 (4q)
+  RUN  qiskit_stackexchange_3 (4q)
+  RUN  qiskit_stackexchange_7 (1q)
+  RUN  qiskit_stackexchange_8 (8q)
+  RUN  qiskit_stackexchange_9 (2q)
+  RUN  qiskit_stackoverflow_1 (3q)
+  RUN  qiskit_stackoverflow_2 (2q)
+  RUN  qiskit_stackoverflow_5 (3q)
+  RUN  qiskit_stackoverflow_6 (2q)
+  RUN  qiskit_stackoverflow_7 (3q)
+[shard 0] done -> /var/tmp/jobfs/qmt_ablation_1/bugs4q/raw_runs_shard0000.jsonl
+
++------------------ Job Report: 13232593 (CANCELLED) ------------------+
+| Memory (RAM)  No data available                                      |
+| CPU           [#################   ] 86.4% average                   |
+| Time          [>                   ]  1.2% (0-00:00:44 / 0-01:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   0 B           0 B                      4                   |
+|   /fred   128 KB        120 B                  136                   |
+|   /home   12 KB         0 B                      6                   |
+|   OS      0 B           0 B                      2                   |
++----------------------------------------------------------------------+

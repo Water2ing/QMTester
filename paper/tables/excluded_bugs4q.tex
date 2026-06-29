@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\caption{Disposition of \emph{all} 32 build-and-run Bugs4Q bugs (full audit; per-bug detail in the artifact). Nine admit a sound builder-contract relation---eight now detected (Sec.~\ref{sec:rq1})---and 23 are out of scope by the categories below. With every bug dispositioned, the in-scope count is a population property, not an audit-coverage artifact.}
+\label{tab:excluded-bugs4q}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}p{0.62\columnwidth}c@{}}
+\toprule
+\textbf{Out-of-scope category} & \textbf{Count} \\
+\midrule
+API misuse (deprecated API, wrong import/attribute) & 12 \\
+Output-formatting (visualization, global phase) & 4 \\
+Platform/runtime (backend, transpiler, version) & 3 \\
+Generic wrong-gate / missing-gate & 3 \\
+Measurement is not a program contract for this bug & 1 \\
+\midrule
+\multicolumn{2}{@{}l@{}}{\textbf{Out of scope: 23 of 32} \quad (in scope: 9; detected: 8)} \\
+\bottomrule
+\end{tabular}
+\end{table}

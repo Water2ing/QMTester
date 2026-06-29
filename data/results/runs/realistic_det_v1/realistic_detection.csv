@@ -1,0 +1,8 @@
+subject_id,family,detected,false_positive,min_p_buggy,min_p_fixed
+qiskit_github_17_program_measurement_order,classical_remap,1,0,0.0,0.8751124887511249
+qiskit_stackoverflow_5_program_ccx_role,input_permutation,1,0,0.0,0.8022113643183915
+qiskit_stackoverflow_1_program_teleport_feedback,ancilla_uncompute,1,0,9.999000099990002e-05,0.24297570242975702
+qiskit_stackexchange_3_program_ccx_uncompute,ancilla_uncompute,1,1,0.0,8.573348760535276e-21
+qiskit_stackexchange_12_program_measurement_endian,classical_remap,1,0,0.0,0.8897008745393661
+qiskit_stackoverflow_7_program_qft_direction,qft_round_trip,1,0,0.0,1.0
+qiskit_stackexchange_8_program_grover_uncompute,ancilla_uncompute,1,0,5.316235696954016e-07,1.0

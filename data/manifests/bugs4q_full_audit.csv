@@ -1,0 +1,33 @@
+subject_id,in_scope,family,confidence,out_of_scope_reason,note
+qiskit_github_17,true,program_classical_remap,high,,original audited subject
+qiskit_stackoverflow_1,true,program_ancilla_uncompute,high,,original audited subject
+qiskit_stackoverflow_5,true,program_input_permutation,high,,original audited subject
+qiskit_stackexchange_3,true,program_ancilla_uncompute,high,,original audited subject
+qiskit_stackexchange_12,true,program_classical_remap,high,,original audited subject
+qiskit_stackoverflow_7,true,program_qft_round_trip,high,,original audited subject
+qiskit_stackexchange_8,true,program_ancilla_uncompute,high,,original audited subject
+qiskit_github_1,false,,high,api_misuse,"ctrl_state parameter passed as integer (0, 1) instead of string ('0', '00'); also includes unsupported 'label' parameter"
+qiskit_github_2,false,,high,platform/runtime,"Uses deprecated QuantumProgram API, deprecated 'iden' method, and old backend execution model instead of modern QuantumC"
+qiskit_github_3,false,,high,api_misuse,U_error noise parameter provided as invalid nested list format instead of properly normalized numpy array; fails to cons
+qiskit_github_4,false,,high,output-formatting,Empty circuit with no operations; calls get_data(qc) method which doesn't exist on result object instead of get_statevec
+qiskit_github_6,false,,high,platform/runtime,Missing ExtendLayout and EnlargeWithAncilla passes in the PassManager pipeline; these are required for proper ancilla qu
+qiskit_github_7,false,,high,api_misuse,Uses node.qargs (actual qubit references from controlled gate) instead of qr (uncontrolled qubits from fresh DAG) when p
+qiskit_github_8,false,,high,generic_wrong_gate,"Wrong qubit role assignment in creating a controlled gate: buggy version uses qubits [2,0,1] as [control,target,target] "
+qiskit_github_10,false,,high,api_misuse,Calls qc.decompose() without capturing or using the result (prints it but doesn't apply it to circuit). Fixed version us
+qiskit_github_11,false,,high,output-formatting,"Uses inplace=True when assigning parameters, which fails to properly track that parameters in global_phase have been bou"
+qiskit_github_12,true,program_classical_remap,medium,,"Uses measure_all() on a circuit with an existing classical register, which fails to properly map qubits to the pre-exist"
+qiskit_github_13,false,,high,api_misuse - the bug is a misunderstandi,"The buggy code appends a QuantumCircuit directly to another circuit (outer_level.append(inner_level, [0,1])), while the "
+qiskit_github_16,false,,high,measurement_not_a_contract - measurement,"The buggy code measures the qubits into classical registers (ghz.measure(qr,cr)) before attempting to read the statevect"
+qiskit_stackoverflow_2,false,,high,output-formatting - the bug affects how ,"The buggy code calls zz.draw('mpl') directly, while the fixed version calls zz.decompose().draw('mpl'). The bug produces"
+qiskit_stackoverflow_6,false,,high,generic_wrong_gate - the bug is simply a,"The buggy code applies a Hadamard gate to qubit 1 (circuit.h(1)), while the fixed version applies a Pauli-X gate (circui"
+qiskit_stackexchange_1,false,,high,output-formatting - the bug is extraneou,"The buggy code includes a print statement (print(counts)) after plotting, while the fixed version comments it out (#prin"
+qiskit_stackexchange_2,true,program_qft_round_trip,high,none,Buggy code implements inverse QFT with incorrect loop structure (nested SWAP then reversed loops with wrong phase angle 
+qiskit_stackexchange_7,false,,high,api_misuse,"Buggy code uses circuit.wait(1e-6, qubit) which is not a valid quantum operation in modern Qiskit; fix replaces with bar"
+qiskit_stackexchange_9,false,,high,api_misuse,"Buggy code instantiates QasmSimulator() in global scope (undefined 'simulator' variable passed to execute), then reuses "
+qiskit_stackexchange_10,false,,high,api_misuse,Buggy code uses deprecated compile() function from Qiskit; fix replaces with transpile() and assemble() from qiskit.comp
+qiskit_stackexchange_11,false,,high,api_misuse,Buggy code attempts to call result.get_counts(circuit) on a circuit executed without explicit backend selection and befo
+qiskit_stackexchange_13,false,,high,platform/runtime,Changes max_parallel_threads from 1 to 2 in backend_options dict (lines 26 and 31). This is a backend parallelization co
+qiskit_stackexchange_14,false,,high,api_misuse,"Calls save_statevector() multiple times in circuit (lines 4, 6, 8) but retrieves the final statevector with get_statevec"
+qiskit_stackexchange_15,false,,high,generic_wrong_gate,"Calls qc.initialize(0,0) twice on lines 6-7, initializing both qubits to state |0>, when the intent is to initialize fir"
+qiskit_stackexchange_16,false,,high,api_misuse,Calls circuit.iden(0) which is not a valid Qiskit method (line 4). The correct method name is circuit.id(0). This is a t
+qiskit_stackexchange_17,false,,high,api_misuse,Attempts to use gate_list but references undefined variable 'gates' on line 11. Also tries to call gates as circuit meth

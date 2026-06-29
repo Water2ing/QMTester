@@ -1,0 +1,20 @@
+\section{Discussion}
+\label{sec:discussion}
+
+The \emph{level} at which a relation is defined determines which bugs it sees: a relation over the final circuit takes the buggy output as ground truth (our diagnostic confirms no advantage over MorphQ), whereas rebuilding from a follow-up input lets a divergence reflect a contract violation, not a finite-shot artifact.
+
+\subsection{Artifact Verifiability}
+\label{sec:artifact-verifiability}
+
+Every headline number regenerates from a canonical CSV that \texttt{derive\_metrics.py} builds from run-isolated summary shards under a frozen run directory, with denominator enforcement and a re-derivation integrity check. The artifact bundles the adapters, relation families, canonicalization, the pipeline, all manifests (Bugs4Q core $+$ \texttt{program\_mined}, held to the same admission/baseline checks), the soundness audit, MorphQ logs, and derivation scripts.
+
+\subsection{Threats to Validity}
+\label{sec:threats}
+
+\textbf{Small, load-bearing real-defect denominator.} The distribution base is \emph{ten} subjects (seven Bugs4Q $+$ three mined, \S\ref{sec:rq1}; eleven with register-shape). The class is rare but \emph{not} exhausted: static-finding datasets yield little (LintQ~\cite{paltenghi2024lintq}, one distribution-mappable finding $+$ the $37$ \texttt{measure\_all} changes; OOPSLA'22 mostly off-contract~\cite{paltenghi2022bugs}), whereas Q\&A mining returns about one genuine defect per four candidates. The new subjects cluster in deterministic families; a real \texttt{parameter\_periodicity} defect remains open---and the gap is \emph{principled}. The dominant real periodicity bug is a \emph{period confusion} (treating a controlled rotation as $2\pi$-periodic when its period is $4\pi$, documented in Qiskit itself~\cite{qiskit13670}); QMTester catches this at \emph{admission}---rejecting the unsound $2\pi$ relation---\emph{not} via the distribution test, since testing it would flag a \emph{correct} program (the false positive a naive MR raises). The distribution-detectable alternative, a wrong-\emph{scaling} angle error, an exhaustive Q\&A screen finds vanishingly rare. So this family's statistics are validated on the synthetic sweep, with the period-aware admission its real-world anchor~\cite{qiskit13670}.
+
+\textbf{Construct and external validity.} Preconditions are auditable (Table~\ref{tab:relation-validity}; $A_R$ logged per subject/family). The evaluation is Qiskit/simulator-based, but we \emph{measure} the noise question: under the realistic $+2\%$ readout/$+1\%$ crosstalk model the seven \emph{Bugs4Q} defects stay detected (mined three not re-run) and the basis-state families specific, while one cross-boundary \texttt{ancilla} fixed variant trips a false positive (most noise-sensitive). The relations are also \emph{not Qiskit-specific}: rebuilding two real subjects (role permutation, register remapping) in \emph{Cirq} under the \emph{same} canonicalization and oracle, the buggy variant is detected and the fixed clean (\texttt{run\_cirq\_crossstack})---only circuit construction is stack-bound. Proposition~1 is noise-independent; device and Q\# runs remain untested.
+
+\subsection{Limitations and Future Work}
+
+Mining recent Q\&A is the productive lever; scaling it, with further relation families (expectation-value, Pauli-string), is the path to a larger base---recent Qiskit (1.x/2.x) the richest source.

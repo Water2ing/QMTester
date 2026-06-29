@@ -1,0 +1,132 @@
+[Mon Jun 15 23:17:46 AEST 2026] node=dave91 shard=4
+[shard 4/6] probing subjects...
+[1.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j
+ 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j
+ 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j
+ 0.+0.j 0.+0.j]
+                    ┌───┐┌─┐        
+q_0: ────────────■──┤ H ├┤M├──────■─
+     ┌───┐     ┌─┴─┐└┬─┬┘└╥┘      │ 
+q_1: ┤ H ├──■──┤ X ├─┤M├──╫───■───┼─
+     └───┘┌─┴─┐└───┘ └╥┘  ║ ┌─┴─┐ │ 
+q_2: ─────┤ X ├───────╫───╫─┤ X ├─■─
+          └───┘       ║   ║ └───┘   
+c: 3/═════════════════╩═══╩═════════
+                      1   0         
+2
+{'0110': 34, '1000': 51, '0100': 50, '0000': 56, '0010': 97, '1111': 105, '0001': 48, '1011': 89, '0011': 83, '0111': 104, '1100': 49, '1001': 60, '0101': 32, '1110': 25, '1101': 42, '1010': 99}
+NoiseModel:
+  Basis gates: ['cz', 'h', 'id', 'rx', 'rz']
+  Instructions with noise: ['cz', 'rx', 'rz', 'h']
+  All-qubits errors: ['h', 'rx', 'rz', 'cz']
+
+Total count: {'011': 1000}
+      ┌──────┐
+qr_0: ┤1     ├
+      │      │
+qr_1: ┤0 ghz ├
+      │      │
+qr_2: ┤2     ├
+      └──┬───┘
+qr_3: ───■────
+              
+      ┌──────┐
+qr_0: ┤1     ├
+      │      │
+qr_1: ┤0 ghz ├
+      │      │
+qr_2: ┤2     ├
+      └──────┘
+qr_3: ────────
+              
+      ┌──────┐
+qr_0: ┤2     ├
+      │      │
+qr_1: ┤0     ├
+      │  ghz │
+qr_2: ┤      ├
+      │      │
+qr_3: ┤1     ├
+      └──────┘
+[[1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0.4-0.9j 0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0.9+0.4j 0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0.4-0.9j 0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0.9+0.4j 0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.9-0.4j 0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.4+0.9j 0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.9-0.4j 0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.4+0.9j]]
+001
+Statevector([0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j,
+             1.+0.j],
+            dims=(2, 2, 2))
+{'111': 1024}
+{'11': 238, '00': 238, '10': 280, '01': 268}
+        ┌───┐      ░ ┌─┐   
+   q_0: ┤ H ├──■───░─┤M├───
+        ├───┤┌─┴─┐ ░ └╥┘┌─┐
+   q_1: ┤ H ├┤ X ├─░──╫─┤M├
+        └───┘└───┘ ░  ║ └╥┘
+meas: 2/══════════════╩══╩═
+                      0  1 
+{'00 00': 249, '01 00': 238, '11 00': 259, '10 00': 278}
+[QuantumRegister(1, 'q81')]
+[]
+ParameterView([ParameterVectorElement(θ[0]), ParameterVectorElement(θ[1]), ParameterVectorElement(θ[2]), ParameterVectorElement(θ[3]), ParameterVectorElement(θ[4]), ParameterVectorElement(θ[5]), ParameterVectorElement(θ[6]), ParameterVectorElement(θ[7])])
+0.001
+  15 subjects in this shard
+  SKIP StackExchange-page-1-25_Bug_13: EXEC_ERROR:NameError:name 'provider' is not defined
+  SKIP StackExchange-page-1-25_Bug_20: IMPORT_ERROR:No module named 'IPython'
+  SKIP StackExchange_1: EXEC_ERROR:SyntaxError:invalid syntax (buggy.py, line 10)
+  SKIP StackExchange_15: EXEC_ERROR:AttributeError:'QuantumCircuit' object has no attribute 'cu1'
+  SKIP StackExchange_2_bug_1: EXEC_ERROR:AttributeError:'QuantumCircuit' object has no attribute 'iden'
+  SKIP StackExchange_7: EXEC_ERROR:NameError:name 'backend' is not defined
+  SKIP Terra-0-4000_12: IMPORT_ERROR:cannot import name 'compile' from 'qiskit' (/usr/local/lib/python3.11/site-packages/qiskit/__init__.py)
+  SKIP Terra-0-4000_18: EXEC_ERROR:TypeError:'<' not supported between instances of 'Qubit' and 'Qubit'
+  SKIP Terra-0-4000_23: EXEC_ERROR:AttributeError:property 'name' of 'QuantumRegister' object has no setter
+  SKIP Terra-0-4000_7: IMPORT_ERROR:No module named 'qiskit.wrapper'
+  SKIP Terra-4001-6000_Bug_2: EXEC_ERROR:NameError:name 'QuantumCircuit' is not defined
+  SKIP Terra-4001-6000_Bug_8: EXEC_ERROR:NameError:name 'FakeAlmaden' is not defined
+  SKIP Terra-6000-7100_6604_Bug: EXEC_ERROR:NameError:name 'I' is not defined
+  RUN  stackoverflow-1-5_1 (3q)
+  RUN  stackoverflow-6-10_bug_2 (2q)
+[shard 4] done -> /var/tmp/jobfs/qmt_bugs4q_4/raw_runs_shard0004.jsonl
+[Mon Jun 15 23:18:04 AEST 2026] Copying shards back to /fred...
+'/var/tmp/jobfs/qmt_bugs4q_4/morphq_shard0004.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/morphq_shard0004.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_4/morphq_summary_shard0004.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/morphq_summary_shard0004.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_4/raw_runs_shard0004.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/raw_runs_shard0004.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_4/summary_shard0004.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/summary_shard0004.jsonl'
+[Mon Jun 15 23:18:04 AEST 2026] shard 4 done.
+
++------------------ Job Report: 13199212 (COMPLETED) ------------------+
+| Memory (RAM)  No data available                                      |
+| CPU           [                    ]  1.1% average                   |
+| Time          [>                   ]  0.2% (0-00:00:23 / 0-04:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   No data available                                                  |
++----------------------------------------------------------------------+

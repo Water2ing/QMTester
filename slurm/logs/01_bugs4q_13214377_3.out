@@ -1,0 +1,142 @@
+[Tue Jun 16 05:17:01 AEST 2026] node=dave121 shard=3
+[shard 3/6] probing subjects...
+[1.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j
+ 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j
+ 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j
+ 0.+0.j 0.+0.j]
+                    ┌───┐┌─┐        
+q_0: ────────────■──┤ H ├┤M├──────■─
+     ┌───┐     ┌─┴─┐└┬─┬┘└╥┘      │ 
+q_1: ┤ H ├──■──┤ X ├─┤M├──╫───■───┼─
+     └───┘┌─┴─┐└───┘ └╥┘  ║ ┌─┴─┐ │ 
+q_2: ─────┤ X ├───────╫───╫─┤ X ├─■─
+          └───┘       ║   ║ └───┘   
+c: 3/═════════════════╩═══╩═════════
+                      1   0         
+2
+{'0010': 100, '1111': 116, '0001': 47, '1110': 39, '1001': 46, '0101': 36, '0100': 34, '1011': 110, '0111': 102, '0011': 87, '1010': 88, '1100': 41, '0110': 34, '1000': 58, '0000': 49, '1101': 37}
+NoiseModel:
+  Basis gates: ['cz', 'h', 'id', 'rx', 'rz']
+  Instructions with noise: ['h', 'rz', 'cz', 'rx']
+  All-qubits errors: ['h', 'rx', 'rz', 'cz']
+
+Total count: {'011': 1000}
+      ┌──────┐
+qr_0: ┤1     ├
+      │      │
+qr_1: ┤0 ghz ├
+      │      │
+qr_2: ┤2     ├
+      └──┬───┘
+qr_3: ───■────
+              
+      ┌──────┐
+qr_0: ┤1     ├
+      │      │
+qr_1: ┤0 ghz ├
+      │      │
+qr_2: ┤2     ├
+      └──────┘
+qr_3: ────────
+              
+      ┌──────┐
+qr_0: ┤2     ├
+      │      │
+qr_1: ┤0     ├
+      │  ghz │
+qr_2: ┤      ├
+      │      │
+qr_3: ┤1     ├
+      └──────┘
+[[1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0.4-0.9j 0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0.9+0.4j 0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0.4-0.9j 0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0.9+0.4j 0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.9-0.4j 0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.4+0.9j 0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.9-0.4j 0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.4+0.9j]]
+010
+Statevector([0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j,
+             1.+0.j],
+            dims=(2, 2, 2))
+{'111': 1024}
+{'11': 245, '10': 270, '00': 262, '01': 247}
+        ┌───┐      ░ ┌─┐   
+   q_0: ┤ H ├──■───░─┤M├───
+        ├───┤┌─┴─┐ ░ └╥┘┌─┐
+   q_1: ┤ H ├┤ X ├─░──╫─┤M├
+        └───┘└───┘ ░  ║ └╥┘
+meas: 2/══════════════╩══╩═
+                      0  1 
+{'01 00': 266, '00 00': 255, '10 00': 249, '11 00': 254}
+[QuantumRegister(1, 'q81')]
+[]
+ParameterView([ParameterVectorElement(θ[0]), ParameterVectorElement(θ[1]), ParameterVectorElement(θ[2]), ParameterVectorElement(θ[3]), ParameterVectorElement(θ[4]), ParameterVectorElement(θ[5]), ParameterVectorElement(θ[6]), ParameterVectorElement(θ[7])])
+0.001
+  15 subjects in this shard
+  SKIP StackExchange-page-1-25_Bug_10: EXEC_ERROR:NameError:name 'I' is not defined
+  SKIP StackExchange-page-1-25_Bug_19: EXEC_ERROR:QiskitError:'You have to select a circuit or schedule when there is more than one available'
+  RUN  StackExchange-page-1-25_Bug_9 (4q)
+  SKIP StackExchange_14: EXEC_ERROR:AttributeError:'QuantumCircuit' object has no attribute 'u1'
+  SKIP StackExchange_20: EXEC_ERROR:NameError:name 'complete_meas_cal' is not defined
+  SKIP StackExchange_6: IMPORT_ERROR:cannot import name 'compile' from 'qiskit' (/usr/local/lib/python3.11/site-packages/qiskit/__init__.py)
+  SKIP Terra-0-4000_11: IMPORT_ERROR:cannot import name 'compile' from 'qiskit' (/usr/local/lib/python3.11/site-packages/qiskit/__init__.py)
+  SKIP Terra-0-4000_17: EXEC_ERROR:AttributeError:'QuantumCircuit' object has no attribute 'u3'
+  RUN  Terra-0-4000_22 (4q)
+  SKIP Terra-0-4000_6: IMPORT_ERROR:cannot import name 'QuantumProgram' from 'qiskit' (/usr/local/lib/python3.11/site-packages/qiskit/__init__.py)
+  SKIP Terra-4001-6000_Bug_11: EXEC_ERROR:AttributeError:'QuantumCircuit' object has no attribute 'u1'
+  SKIP Terra-4001-6000_Bug_7: IMPORT_ERROR:No module named 'qiskit.providers.ibmq'
+  RUN  Terra-6000-7100_6571_Bug (2q)
+  SKIP Terra-6000-7100_7032_Bug: IMPORT:deprecated_package_qiskit.opflow
+  RUN  stackoverflow-6-10_bug_1 (3q)
+[shard 3] done -> /var/tmp/jobfs/qmt_bugs4q_3/raw_runs_shard0003.jsonl
+[Tue Jun 16 05:18:06 AEST 2026] Copying shards back to /fred...
+'/var/tmp/jobfs/qmt_bugs4q_3/morphq_shard0003.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/morphq_shard0003.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_3/morphq_summary_shard0003.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/morphq_summary_shard0003.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_3/raw_runs_shard0003.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/raw_runs_shard0003.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_3/summary_shard0003.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/summary_shard0003.jsonl'
+[Tue Jun 16 05:18:06 AEST 2026] shard 3 done.
+
++------------------ Job Report: 13214377 (COMPLETED) ------------------+
+| Memory (RAM)  [                    ]  0.0% (1 MB peak / 200 GB)      |
+| CPU           [                    ]  1.2% average                   |
+| Time          [>                   ]  0.5% (0-00:01:10 / 0-04:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   84.9 MB       0 B                     49                   |
+|   /fred   64.5 MB       11.5 KB                810                   |
+|   /home   36 KB         0 B                     12                   |
+|   OS      0 B           0 B                      3                   |
+|                                                                      |
+| Warnings:                                                            |
+|   - Too much memory requested                                        |
+|   - CPU usage is low                                                 |
+|   - Too much time requested                                          |
++----------------------------------------------------------------------+

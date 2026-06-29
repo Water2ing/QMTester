@@ -1,0 +1,30 @@
+[Tue Jun 16 19:09:56 AEST 2026] node=dave60 shard=3
+[shard 3/6] loading manifest /work/data/manifests/bugs4q_manifest.csv...
+  3 subjects in this shard
+  RUN  qiskit_github_16 (5q)
+  RUN  qiskit_stackexchange_3 (4q)
+  RUN  qiskit_stackoverflow_6 (2q)
+[shard 3] done -> /var/tmp/jobfs/qmt_bugs4q_3/raw_runs_shard0003.jsonl
+[Tue Jun 16 19:10:56 AEST 2026] Copying shards back to /fred...
+'/var/tmp/jobfs/qmt_bugs4q_3/morphq_shard0003.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/hpc_resource_fix_20260616T090928Z/shards/morphq_shard0003.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_3/morphq_summary_shard0003.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/hpc_resource_fix_20260616T090928Z/shards/morphq_summary_shard0003.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_3/raw_runs_shard0003.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/hpc_resource_fix_20260616T090928Z/shards/raw_runs_shard0003.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_3/summary_shard0003.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/hpc_resource_fix_20260616T090928Z/shards/summary_shard0003.jsonl'
+[Tue Jun 16 19:10:56 AEST 2026] shard 3 done.
+
++------------------ Job Report: 13232309 (COMPLETED) ------------------+
+| Memory (RAM)  [                    ]  0.0% (1 MB peak / 4 GB)        |
+| CPU           [#################   ] 87.9% average                   |
+| Time          [>                   ]  0.9% (0-00:01:06 / 0-02:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   83.9 MB       0 B                     21                   |
+|   /fred   64.2 MB       116 B                  148                   |
+|   /home   12 KB         0 B                     10                   |
+|                                                                      |
+| Warnings:                                                            |
+|   - Too much memory requested                                        |
+|   - Too much time requested                                          |
++----------------------------------------------------------------------+

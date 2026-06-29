@@ -1,0 +1,53 @@
+subject_id,readme_bug_id,section,buggy_path,fixed_path,category,runnable,adapter,relation_scope,exclusion_reason
+qiskit_github_1,1,qiskit_github,Terra-0-4000/3/buggy.py,Terra-0-4000/3/Fixed.py,parameter,true,qiskit_script,circuit,
+qiskit_github_2,2,qiskit_github,Terra-0-4000/6/buggy.py,Terra-0-4000/6/Fixed.py,"qr,qc",true,qiskit_script,circuit,
+qiskit_github_3,3,qiskit_github,Terra-0-4000/7/buggy.py,Terra-0-4000/7/Fix.py,! U,true,qiskit_script,circuit,
+qiskit_github_4,4,qiskit_github,Terra-0-4000/8/buggy.py,Terra-0-4000/8/fixed.py,empty circuit,true,qiskit_script,circuit,
+qiskit_github_5,5,qiskit_github,Terra-0-4000/11/buggy.py,Terra-0-4000/11/fix.py,qasm,false,qiskit_script,circuit,EXEC_ERROR:QiskitBackendNotFoundError:'No backend matches the criteria'
+qiskit_github_6,6,qiskit_github,Terra-0-4000/13/buggy.py,Terra-0-4000/13/fix.py,lack,true,qiskit_script,circuit,
+qiskit_github_7,7,qiskit_github,Terra-0-4000/22/buggy.py,Terra-0-4000/22/fix.py,output wrong,true,qiskit_script,circuit,
+qiskit_github_8,8,qiskit_github,Terra-4001-6000/Bug_5/buggy.py,Terra-4001-6000/Bug_5/fixed.py,Wrong circuit design,true,qiskit_script,circuit,
+qiskit_github_9,9,qiskit_github,Terra-4001-6000/Bug_8/buggy.py,Terra-4001-6000/Bug_8/fixed.py,Wrong command,false,qiskit_script,circuit,EXEC_ERROR:AttributeError:Attribute drive is not defined
+qiskit_github_10,10,qiskit_github,Terra-4001-6000/Bug_11/buggy.py,Terra-4001-6000/Bug_11/fixed.py,Wrong command,true,qiskit_script,circuit,
+qiskit_github_11,11,qiskit_github,Terra-6000-7100/6892_Bug/bug_version.py,Terra-6000-7100/6892_Fixed/fixed_version.py,`QuantumCircuit.parameters` only tracks unbound parameters.,true,qiskit_script,circuit,
+qiskit_github_12,12,qiskit_github,Terra-6000-7100/6571_Bug/bug_version.py,Terra-6000-7100/6571_Fixed/fixed_version.py,Being not familiar with the usage of measuring all bit using existing registers.,true,qiskit_script,circuit,
+qiskit_github_13,13,qiskit_github,Terra-6000-7100/6540_Bug/bug_version.py,Terra-6000-7100/6540_Fixed/fixed_version.py,Qiskit distinguishes operations in `Gate`s,true,qiskit_script,circuit,
+qiskit_github_14,14,qiskit_github,Terra-6000-7100/6255_Bug/bug_version.py,Terra-6000-7100/6255_Fixed/fixed_version.py,Not fully understanding QASM and statevector/eval computation.,false,qiskit_script,circuit,IMPORT:deprecated_package_qiskit.opflow
+qiskit_github_15,15,qiskit_github,Terra-6000-7100/7032_Bug/bug_version.py,Terra-6000-7100/7032_Bug/bug_version.py,"The circuit library requires `decompose` for ""lin_comb"".",false,qiskit_script,circuit,IMPORT:deprecated_package_qiskit.opflow
+qiskit_github_16,16,qiskit_github,Aer/bug_1/buggy.py,Aer/bug_1/fixed.py,Ignoring the impact of measurement,true,qiskit_script,circuit,
+qiskit_github_17,17,qiskit_github,Aer/bug_7/buggy.py,Aer/bug_7/fixed.py,Order during measurement,true,qiskit_script,circuit,
+qiskit_github_18,18,qiskit_github,Aer/bug_10/buggy.py,Aer/bug_10/fixed.py,Oversized resource consumption,false,qiskit_script,circuit,IMPORT:deprecated_package_qiskit.ignis
+qiskit_stackoverflow_1,1,qiskit_stackoverflow,stackoverflow-1-5/1/buggy.py,stackoverflow-1-5/1/Fix.py,Output Wrong,true,qiskit_script,circuit,
+qiskit_stackoverflow_2,2,qiskit_stackoverflow,stackoverflow-1-5/Bug_2/bug_version.py,stackoverflow-1-5/Fixed_2/fixed_version.py,Unfamiliar with API,true,qiskit_script,circuit,
+qiskit_stackoverflow_3,3,qiskit_stackoverflow,stackoverflow-1-5/Bug_3/bug_version.py,stackoverflow-1-5/Fixed_3/fixed_version.py,Figure problem,false,qiskit_script,circuit,"EXEC_ERROR:SyntaxError:'(' was never closed (bug_version.py, line 9)"
+qiskit_stackoverflow_4,4,qiskit_stackoverflow,stackoverflow-1-5/Bug_11/bug_version.py,stackoverflow-1-5/Fixed_11/fixed_version.py,Name conflict,false,qiskit_script,circuit,"EXEC_ERROR:SyntaxError:invalid syntax (bug_version.py, line 7)"
+qiskit_stackoverflow_5,5,qiskit_stackoverflow,stackoverflow-6-10/bug_1/buggy.py,stackoverflow-6-10/bug_1/fixed.py,Label convention is reversed(\,true,qiskit_script,circuit,
+qiskit_stackoverflow_6,6,qiskit_stackoverflow,stackoverflow-6-10/bug_2/buggy.py,stackoverflow-6-10/bug_2/fixed.py,Wrong operation with GATE,true,qiskit_script,circuit,
+qiskit_stackoverflow_7,7,qiskit_stackoverflow,stackoverflow-6-10/bug_3/buggy.py,stackoverflow-6-10/bug_3/fixed.py,QFT operation*,true,qiskit_script,circuit,
+qiskit_stackexchange_1,1,qiskit_stackexchange,StackExchange/14/buggy.py,StackExchange/14/fix.py,output wrong,true,qiskit_script,circuit,
+qiskit_stackexchange_2,2,qiskit_stackexchange,StackExchange/15/buggy.py,StackExchange/15/fix.py,QFE output wrong,true,qiskit_script,circuit,
+qiskit_stackexchange_3,3,qiskit_stackexchange,StackExchange/16/buggy.py,StackExchange/16/fix.py,ccx,true,qiskit_script,circuit,
+qiskit_stackexchange_4,4,qiskit_stackexchange,StackExchange/17/buggy.py,StackExchange/17/fix.py,Random gates,false,qiskit_script,circuit,EXEC_ERROR:NameError:name 'gates' is not defined
+qiskit_stackexchange_5,5,qiskit_stackexchange,StackExchange/20/buggy.py,StackExchange/20/fix.py,Not a DAG,false,qiskit_script,circuit,EXEC_ERROR:NameError:name 'complete_meas_cal' is not defined
+qiskit_stackexchange_6,6,qiskit_stackexchange,StackExchange/1/buggy.py,StackExchange/1/fix.py,output wrong,false,qiskit_script,circuit,"EXEC_ERROR:SyntaxError:invalid syntax (buggy.py, line 10)"
+qiskit_stackexchange_7,7,qiskit_stackexchange,StackExchange/3/buggy.py,StackExchange/3/fix.py,wait(),true,qiskit_script,circuit,
+qiskit_stackexchange_8,8,qiskit_stackexchange,StackExchange/4/buggy.py,StackExchange/4/fix.py,grover algrithm,true,qiskit_script,circuit,
+qiskit_stackexchange_9,9,qiskit_stackexchange,StackExchange/5/buggy.py,StackExchange/5/fix.py,only for simulator,true,qiskit_script,circuit,
+qiskit_stackexchange_10,10,qiskit_stackexchange,StackExchange/6/buggy.py,StackExchange/6/fix.py,compiler() removerd,true,qiskit_script,circuit,
+qiskit_stackexchange_11,11,qiskit_stackexchange,StackExchange/7/buggy.py,StackExchange/7/fix.py,obtain amplitude,true,qiskit_script,circuit,
+qiskit_stackexchange_12,12,qiskit_stackexchange,StackExchange/9/buggy.py,StackExchange/9/fix.py,Output,true,qiskit_script,circuit,
+qiskit_stackexchange_13,13,qiskit_stackexchange,StackExchange/12/buggy.py,StackExchange/12/fix.py,threads,true,qiskit_script,circuit,
+qiskit_stackexchange_14,14,qiskit_stackexchange,StackExchange-page-1-25/Bug_5/bug_version.py,StackExchange-page-1-25/Fixed_5/fixed_version.py,statevector,true,qiskit_script,circuit,
+qiskit_stackexchange_15,15,qiskit_stackexchange,StackExchange-page-1-25/Bug_9/bug_version.py,StackExchange-page-1-25/Fixed_9/fixed_version.py,Initialization,true,qiskit_script,circuit,
+qiskit_stackexchange_16,16,qiskit_stackexchange,StackExchange-page-1-25/Bug_19/bug_version.py,StackExchange-page-1-25/Fixed_19/fixed_version.py,`transpile` required,true,qiskit_script,circuit,
+qiskit_stackexchange_17,17,qiskit_stackexchange,StackExchange_2/bug_1/buggy.py,StackExchange_2/bug_1/fixed.py,Outdated grammar,true,qiskit_script,circuit,
+qiskit_stackexchange_18,18,qiskit_stackexchange,StackExchange_2/bug_2/buggy.py,StackExchange_2/bug_2/fixed.py,Start state is reversed,false,qiskit_script,circuit,"IMPORT_ERROR:""The 'seaborn' library is required to use 'plot_state_qsphere'. You can install it with 'pip install seaborn'."""
+qsharp_1,1,qsharp,Q%23/buggy.qs,Q%23/fixed.qs,---,false,unsupported,circuit,NON_QISKIT:qsharp
+qsharp_2,2,qsharp,Q%23/2.ipynb,Q%23/2.ipynb,---,false,unsupported,circuit,NON_QISKIT:qsharp
+cirq_1,1,cirq,Cirq/1/buggy.py,Cirq/1/fixed.py,---,false,unsupported,circuit,NON_QISKIT:cirq
+cirq_2,2,cirq,Cirq/2/buggy.py,Cirq/2/fixed.py,---,false,unsupported,circuit,NON_QISKIT:cirq
+cirq_3,3,cirq,Cirq/3/buggy.py,Cirq/3/fixed.py,---,false,unsupported,circuit,NON_QISKIT:cirq
+cirq_4,4,cirq,Cirq/4/buggy.py,Cirq/4/fixed.py,---,false,unsupported,circuit,NON_QISKIT:cirq
+cirq_5,5,cirq,Cirq/5/buggy.py,Cirq/5/fixed.py,---,false,unsupported,circuit,NON_QISKIT:cirq
+cirq_6,6,cirq,Cirq/6/buggy.py,Cirq/6/fixed.py,---,false,unsupported,circuit,NON_QISKIT:cirq
+cirq_7,7,cirq,Cirq/7/buggy.py,Cirq/7/fixed.py,---,false,unsupported,circuit,NON_QISKIT:cirq

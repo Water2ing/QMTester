@@ -1,0 +1,10 @@
+[Tue Jun 16 19:08:48 AEST 2026] node=dave48 shard=0 FAMILIES=all
+
++------------------ Job Report: 13232275 (CANCELLED) ------------------+
+| Memory (RAM)  No data available                                      |
+| CPU           [##########          ] 50.0% average                   |
+| Time          [>                   ]  0.3% (0-00:00:30 / 0-03:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   No data available                                                  |
++----------------------------------------------------------------------+

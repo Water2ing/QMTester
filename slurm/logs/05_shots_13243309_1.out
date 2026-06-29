@@ -1,0 +1,14 @@
+[Wed Jun 17 06:41:21 AEST 2026] Shot budget: 2048
+
++------------------ Job Report: 13243332 (CANCELLED) ------------------+
+| Memory (RAM)  No data available                                      |
+| CPU           [#############       ] 67.6% average                   |
+| Time          [>                   ]  0.9% (0-00:00:34 / 0-01:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   0 B           0 B                      2                   |
+|   /fred   268 KB        114 B                  402                   |
+|   OS      0 B           0 B                      2                   |
++----------------------------------------------------------------------+

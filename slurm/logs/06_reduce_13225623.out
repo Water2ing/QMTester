@@ -1,0 +1,15 @@
+[Tue Jun 16 18:57:22 AEST 2026] Reducing shards...
+Concatenating 74 shards -> /work/data/results/raw_runs.jsonl
+Wrote 80059 records to /work/data/results/raw_runs.jsonl
+[Tue Jun 16 18:57:31 AEST 2026] Deriving canonical metrics...
+
++------------------- Job Report: 13225623 (FAILED) --------------------+
+| Memory (RAM)  No data available                                      |
+| CPU           No data available                                      |
+| Time          [>                   ]  0.4% (0-00:00:14 / 0-01:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   588 KB        0 B                      5                   |
++----------------------------------------------------------------------+

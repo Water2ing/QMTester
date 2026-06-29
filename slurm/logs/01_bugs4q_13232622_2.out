@@ -1,0 +1,33 @@
+[Tue Jun 16 19:33:59 AEST 2026] node=dave66 shard=2
+[shard 2/6] loading manifest /work/data/manifests/bugs4q_manifest.csv...
+  5 subjects in this shard
+  RUN  qiskit_github_11 (1q)
+  RUN  qiskit_github_3 (2q)
+  RUN  qiskit_stackexchange_10 (5q)
+  RUN  qiskit_stackexchange_16 (2q)
+  RUN  qiskit_stackexchange_9 (2q)
+[shard 2] done -> /var/tmp/jobfs/qmt_bugs4q_2/raw_runs_shard0002.jsonl
+[Tue Jun 16 19:35:00 AEST 2026] Copying shards back to /fred...
+'/var/tmp/jobfs/qmt_bugs4q_2/morphq_shard0002.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/redesign_hpc_1g_32bugs_fixcounts_20260616T093325Z/shards/morphq_shard0002.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_2/morphq_summary_shard0002.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/redesign_hpc_1g_32bugs_fixcounts_20260616T093325Z/shards/morphq_summary_shard0002.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_2/raw_runs_shard0002.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/redesign_hpc_1g_32bugs_fixcounts_20260616T093325Z/shards/raw_runs_shard0002.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_2/summary_shard0002.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/redesign_hpc_1g_32bugs_fixcounts_20260616T093325Z/shards/summary_shard0002.jsonl'
+[Tue Jun 16 19:35:00 AEST 2026] shard 2 done.
+
++------------------ Job Report: 13232630 (COMPLETED) ------------------+
+| Memory (RAM)  [                    ]  0.0% (0 B peak / 1 GB)         |
+| CPU           [#################   ] 86.8% average                   |
+| Time          [>                   ]  3.8% (0-00:01:08 / 0-00:30:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   0 B           0 B                      3                   |
+|   /fred   4 KB          116 B                   31                   |
+|   /home   0 B           0 B                      1                   |
+|   OS      0 B           0 B                      2                   |
+|                                                                      |
+| Warnings:                                                            |
+|   - Too much memory requested                                        |
+|   - Too much time requested                                          |
++----------------------------------------------------------------------+

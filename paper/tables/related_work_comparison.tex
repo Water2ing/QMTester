@@ -1,0 +1,22 @@
+\begin{table*}[t]
+\centering
+\caption{Positioning against related quantum testing work. The decisive axis is the \textbf{testing level}: QMTester defines relations over \emph{program/builder inputs}, whereas MorphQ and related metamorphic tools transform a \emph{final circuit}.}
+\label{tab:related-comparison}
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{@{}p{0.12\textwidth}p{0.10\textwidth}p{0.17\textwidth}p{0.18\textwidth}p{0.30\textwidth}@{}}
+\toprule
+\textbf{Work} & \textbf{Testing level} & \textbf{Primary focus} & \textbf{Oracle / evidence model} & \textbf{Relationship to QMTester} \\
+\midrule
+\textbf{QMTester (ours)} & Program / builder & Metamorphic testing of Qiskit program inputs & Program-relation violation via canonicalized count-vector test & --- \\
+MorphQ~\cite{paltenghi2023morphq} & Circuit / platform & Metamorphic testing of the Qiskit platform & Generated final-circuit pairs and platform-level failures & Closest baseline; circuit-level, so it cannot reach builder-layer contracts (hence $0$ on the audited program-level subset). \\
+Bugs4Q~\cite{miao2023bugs4q} & --- (benchmark) & Reproducible quantum-program bugs & Curated bug/fix pairs & Real-defect substrate; we use an audited program-level subset with documented relations. \\
+QDiff~\cite{wang2021qdiff} & Stack & Differential testing across stacks & Cross-stack output discrepancies & Complementary; needs comparable implementations across stacks. \\
+QMutPy~\cite{fortunato2022qmutpy} & Circuit / suite & Mutation testing for Qiskit & Existing tests kill or survive mutants & Related only; \emph{not evaluated} here---assumes a test suite, not an oracle-light baseline. \\
+QOPS/SB-QOPS~\cite{muqeet2024qops,muqeet2026sbqops} & Circuit & Pauli-string and search-based testing & Measurement-centric Pauli-string oracles & Strong oracle-centered alternative; targets settings with Pauli specifications. \\
+QEMI~\cite{luo2026qemi} & Stack & EMI-style stack testing & Dead-code variants should preserve behavior & Complementary metamorphic direction over dead-code variants. \\
+Statistical assertions~\cite{huang2019statistical} & Program & Probabilistic program assertions & Developer-specified probability properties & Statistical discipline but requires absolute probability specifications. \\
+Projective-measurement testing~\cite{li2020projection,oldfield2025faster} & Circuit & Efficient assertion checking & Projective predicates and reduced measurements & Complementary route to stronger or cheaper relation-specific oracles. \\
+\bottomrule
+\end{tabular}
+\end{table*}

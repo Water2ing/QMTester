@@ -1,0 +1,16 @@
+[Tue Jun 16 19:30:01 AEST 2026] node=dave65 RAM=251Gi
+[Tue Jun 16 19:30:01 AEST 2026] Running ideal false-positive check...
+
++------------------ Job Report: 13232560 (CANCELLED) ------------------+
+| Memory (RAM)  No data available                                      |
+| CPU           [################    ] 81.8% average                   |
+| Time          [>                   ]  0.6% (0-00:00:44 / 0-02:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   59.1 MB       0 B                     23                   |
+|   /fred   64.1 MB       188 B                  122                   |
+|   /home   12 KB         0 B                     10                   |
+|   OS      0 B           0 B                      2                   |
++----------------------------------------------------------------------+

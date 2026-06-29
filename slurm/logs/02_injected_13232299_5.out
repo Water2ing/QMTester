@@ -1,0 +1,48 @@
+[Tue Jun 16 19:09:53 AEST 2026] node=dave90 shard=5 FAMILIES=all
+[shard 5] 25 mutants
+  MUTANT m0006 op=qubit_index
+  MUTANT m0016 op=qubit_index
+  MUTANT m0026 op=gate_replace
+  MUTANT m0036 op=gate_delete
+  MUTANT m0046 op=gate_delete
+  MUTANT m0056 op=gate_replace
+  MUTANT m0066 op=gate_delete
+  MUTANT m0076 op=gate_replace
+  MUTANT m0086 op=phase_flip
+  MUTANT m0096 op=measurement_map
+  MUTANT m0106 op=qubit_index
+  MUTANT m0116 op=gate_delete
+  MUTANT m0126 op=gate_delete
+  MUTANT m0136 op=gate_delete
+  MUTANT m0146 op=gate_delete
+  MUTANT m0156 op=gate_delete
+  MUTANT m0166 op=gate_swap
+  MUTANT m0176 op=gate_replace
+  MUTANT m0186 op=gate_delete
+  MUTANT m0196 op=gate_replace
+  MUTANT m0206 op=gate_replace
+  MUTANT m0216 op=gate_replace
+  MUTANT m0226 op=phase_flip
+  MUTANT m0236 op=gate_replace
+  MUTANT m0246 op=measurement_map
+[shard 5] done -> /var/tmp/jobfs/qmt_injected_5/injected_identity_swap_phase_equivalence_shard0005.jsonl
+'/var/tmp/jobfs/qmt_injected_5/injected_identity_swap_phase_equivalence_shard0005.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/hpc_resource_fix_20260616T090928Z/shards/injected_identity_swap_phase_equivalence_shard0005.jsonl'
+'/var/tmp/jobfs/qmt_injected_5/injected_summary_identity_swap_phase_equivalence_shard0005.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/hpc_resource_fix_20260616T090928Z/shards/injected_summary_identity_swap_phase_equivalence_shard0005.jsonl'
+[Tue Jun 16 19:15:34 AEST 2026] shard 5 done.
+
++------------------ Job Report: 13232316 (COMPLETED) ------------------+
+| Memory (RAM)  [                    ]  2.3% (94 MB peak / 4 GB)       |
+| CPU           [################### ] 97.1% average                   |
+| Time          [>                   ]  3.2% (0-00:05:43 / 0-03:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   0 B           0 B                      4                   |
+|   /fred   0 B           129 B                  276                   |
+|   /home   0 B           0 B                      1                   |
+|                                                                      |
+| Warnings:                                                            |
+|   - Too much memory requested                                        |
+|   - Too much time requested                                          |
++----------------------------------------------------------------------+

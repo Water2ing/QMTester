@@ -1,0 +1,18 @@
+[Tue Jun 16 19:28:54 AEST 2026] node=gina13 shard=1 FAMILIES=all
+
++------------------ Job Report: 13232574 (CANCELLED) ------------------+
+| Memory (RAM)  [#                   ]  8.8% (90 MB peak / 1 GB)       |
+| CPU           [##################  ] 93.6% average                   |
+| Time          [>                   ]  4.0% (0-00:01:49 / 0-00:45:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   0 B           0 B                      2                   |
+|   /fred   1.1 MB        129 B                  758                   |
+|   OS      0 B           0 B                      2                   |
+|                                                                      |
+| Warnings:                                                            |
+|   - Too much memory requested                                        |
+|   - Too much time requested                                          |
++----------------------------------------------------------------------+

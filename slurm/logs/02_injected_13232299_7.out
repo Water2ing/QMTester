@@ -1,0 +1,49 @@
+[Tue Jun 16 19:10:28 AEST 2026] node=dave2 shard=7 FAMILIES=all
+[shard 7] 25 mutants
+  MUTANT m0008 op=gate_replace
+  MUTANT m0018 op=gate_delete
+  MUTANT m0028 op=gate_delete
+  MUTANT m0038 op=measurement_map
+  MUTANT m0048 op=gate_replace
+  MUTANT m0058 op=gate_delete
+  MUTANT m0068 op=gate_replace
+  MUTANT m0078 op=gate_replace
+  MUTANT m0088 op=qubit_index
+  MUTANT m0098 op=gate_replace
+  MUTANT m0108 op=qubit_index
+  MUTANT m0118 op=gate_replace
+  MUTANT m0128 op=qubit_index
+  MUTANT m0138 op=gate_replace
+  MUTANT m0148 op=gate_replace
+  MUTANT m0158 op=qubit_index
+  MUTANT m0168 op=qubit_index
+  MUTANT m0178 op=gate_replace
+  MUTANT m0188 op=measurement_map
+  MUTANT m0198 op=qubit_index
+  MUTANT m0208 op=gate_delete
+  MUTANT m0218 op=qubit_index
+  MUTANT m0228 op=gate_delete
+  MUTANT m0238 op=gate_replace
+  MUTANT m0248 op=gate_replace
+[shard 7] done -> /var/tmp/jobfs/qmt_injected_7/injected_identity_swap_phase_equivalence_shard0007.jsonl
+'/var/tmp/jobfs/qmt_injected_7/injected_identity_swap_phase_equivalence_shard0007.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/hpc_resource_fix_20260616T090928Z/shards/injected_identity_swap_phase_equivalence_shard0007.jsonl'
+'/var/tmp/jobfs/qmt_injected_7/injected_summary_identity_swap_phase_equivalence_shard0007.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/hpc_resource_fix_20260616T090928Z/shards/injected_summary_identity_swap_phase_equivalence_shard0007.jsonl'
+[Tue Jun 16 19:17:04 AEST 2026] shard 7 done.
+
++------------------ Job Report: 13232331 (COMPLETED) ------------------+
+| Memory (RAM)  [                    ]  2.4% (99 MB peak / 4 GB)       |
+| CPU           [################### ] 96.8% average                   |
+| Time          [>                   ]  3.7% (0-00:06:40 / 0-03:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   83.9 MB       0 B                     14                   |
+|   /fred   65.2 MB       128 B                  879                   |
+|   /home   12 KB         0 B                     10                   |
+|   OS      0 B           0 B                     36                   |
+|                                                                      |
+| Warnings:                                                            |
+|   - Too much memory requested                                        |
+|   - Too much time requested                                          |
++----------------------------------------------------------------------+

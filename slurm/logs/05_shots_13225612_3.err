@@ -1,0 +1,10 @@
+INFO:    gocryptfs not found, will not be able to use gocryptfs
+Traceback (most recent call last):
+  File "/work/scripts/run_injected.py", line 158, in <module>
+    main()
+  File "/work/scripts/run_injected.py", line 67, in main
+    mutants = _load_mutant_manifest(root, root / args.mutant_manifest)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/scripts/run_injected.py", line 128, in _load_mutant_manifest
+    raise FileNotFoundError(
+FileNotFoundError: missing injected mutant manifest: /work/data/manifests/injected_mutants.csv. Run scripts/build_injected_manifest.py on the login node first.

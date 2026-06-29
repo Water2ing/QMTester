@@ -1,0 +1,19 @@
+[Tue Jun 16 19:18:27 AEST 2026] node=dave84 shard=2 FAMILIES=all
+
++------------------ Job Report: 13232420 (CANCELLED) ------------------+
+| Memory (RAM)  [#                   ]  9.7% (99 MB peak / 1 GB)       |
+| CPU           [################### ] 96.2% average                   |
+| Time          [->                  ]  8.7% (0-00:03:54 / 0-00:45:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   0 B           0 B                      4                   |
+|   /fred   484 KB        129 B                  550                   |
+|   /home   0 B           0 B                      1                   |
+|   OS      0 B           0 B                      2                   |
+|                                                                      |
+| Warnings:                                                            |
+|   - Too much memory requested                                        |
+|   - Too much time requested                                          |
++----------------------------------------------------------------------+

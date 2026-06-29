@@ -1,0 +1,132 @@
+[Mon Jun 15 23:17:46 AEST 2026] node=dave94 shard=5
+[shard 5/6] probing subjects...
+[0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j
+ 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j
+ 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j 0.+0.j
+ 0.+0.j 1.+0.j]
+                    ┌───┐┌─┐        
+q_0: ────────────■──┤ H ├┤M├──────■─
+     ┌───┐     ┌─┴─┐└┬─┬┘└╥┘      │ 
+q_1: ┤ H ├──■──┤ X ├─┤M├──╫───■───┼─
+     └───┘┌─┴─┐└───┘ └╥┘  ║ ┌─┴─┐ │ 
+q_2: ─────┤ X ├───────╫───╫─┤ X ├─■─
+          └───┘       ║   ║ └───┘   
+c: 3/═════════════════╩═══╩═════════
+                      1   0         
+2
+{'1101': 32, '1110': 38, '1011': 92, '0111': 102, '0011': 89, '0001': 63, '1111': 83, '0010': 98, '0000': 47, '0101': 47, '1001': 58, '0110': 44, '1000': 59, '1100': 39, '0100': 28, '1010': 105}
+NoiseModel:
+  Basis gates: ['cz', 'h', 'id', 'rx', 'rz']
+  Instructions with noise: ['rz', 'cz', 'h', 'rx']
+  All-qubits errors: ['h', 'rx', 'rz', 'cz']
+
+Total count: {'011': 1000}
+      ┌──────┐
+qr_0: ┤1     ├
+      │      │
+qr_1: ┤0 ghz ├
+      │      │
+qr_2: ┤2     ├
+      └──┬───┘
+qr_3: ───■────
+              
+      ┌──────┐
+qr_0: ┤1     ├
+      │      │
+qr_1: ┤0 ghz ├
+      │      │
+qr_2: ┤2     ├
+      └──────┘
+qr_3: ────────
+              
+      ┌──────┐
+qr_0: ┤2     ├
+      │      │
+qr_1: ┤0     ├
+      │  ghz │
+qr_2: ┤      ├
+      │      │
+qr_3: ┤1     ├
+      └──────┘
+[[1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  1. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0.4-0.9j 0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0.9+0.4j 0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0.4-0.9j 0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0.9+0.4j 0. +0.j  0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.9-0.4j 0. +0.j  0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.4+0.9j 0. +0.j  0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.9-0.4j 0. +0.j ]
+ [0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j
+  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0. +0.j  0.4+0.9j]]
+000
+Statevector([0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j, 0.+0.j,
+             1.+0.j],
+            dims=(2, 2, 2))
+{'111': 1024}
+{'10': 236, '00': 257, '11': 257, '01': 274}
+        ┌───┐      ░ ┌─┐   
+   q_0: ┤ H ├──■───░─┤M├───
+        ├───┤┌─┴─┐ ░ └╥┘┌─┐
+   q_1: ┤ H ├┤ X ├─░──╫─┤M├
+        └───┘└───┘ ░  ║ └╥┘
+meas: 2/══════════════╩══╩═
+                      0  1 
+{'00 00': 248, '01 00': 267, '10 00': 250, '11 00': 259}
+[QuantumRegister(1, 'q81')]
+[]
+ParameterView([ParameterVectorElement(θ[0]), ParameterVectorElement(θ[1]), ParameterVectorElement(θ[2]), ParameterVectorElement(θ[3]), ParameterVectorElement(θ[4]), ParameterVectorElement(θ[5]), ParameterVectorElement(θ[6]), ParameterVectorElement(θ[7])])
+0.001
+  15 subjects in this shard
+  SKIP StackExchange-page-1-25_Bug_14: IMPORT_ERROR:cannot import name 'measure' from 'qiskit.circuit.measure' (/usr/local/lib/python3.11/site-packages/qiskit/circuit/measure.py)
+  SKIP StackExchange-page-1-25_Bug_21: EXEC_ERROR:TranspilerError:"Unable to translate the operations in the circuit: ['u', 'cx'] to the backend's (or manually specified) target basis: ['reset', 't', 'h', 'cx', 'measure', 'snapshot', 'barrier', 's', 'delay']. This likely means the target basis is not universal or there are additional equivalence rules needed in the EquivalenceLibrary being used. For more details on this error see: https://docs.quantum-computing.ibm.com/api/qiskit/qiskit.transpiler.passes.BasisTranslator#translation-errors"
+  RUN  StackExchange_10 (3q)
+  RUN  StackExchange_16 (4q)
+  SKIP StackExchange_2_bug_2: IMPORT_ERROR:"The 'seaborn' library is required to use 'plot_state_qsphere'. You can install it with 'pip install seaborn'."
+  RUN  StackExchange_8 (2q)
+  SKIP Terra-0-4000_13: EXEC_ERROR:NameError:name 'QuantumRegister' is not defined
+  SKIP Terra-0-4000_19: EXEC_ERROR:NameError:name 'qiskit' is not defined
+  SKIP Terra-0-4000_24: EXEC_ERROR:NameError:name 'CouplingMap' is not defined
+  SKIP Terra-0-4000_8: EXEC_ERROR:AttributeError:'str' object has no attribute 'configuration'
+  SKIP Terra-4001-6000_Bug_3: IMPORT_ERROR:cannot import name 'measure' from 'qiskit.circuit.measure' (/usr/local/lib/python3.11/site-packages/qiskit/circuit/measure.py)
+  SKIP Terra-4001-6000_Bug_9: EXEC_ERROR:NameError:name 'i' is not defined
+  SKIP Terra-6000-7100_6777_Bug: IMPORT:deprecated_package_qiskit.aqua
+  SKIP stackoverflow-1-5_Bug_11: EXEC_ERROR:SyntaxError:invalid syntax (bug_version.py, line 7)
+  SKIP stackoverflow-6-10_bug_3: EXEC_ERROR:AttributeError:'QuantumCircuit' object has no attribute 'cu1'
+[shard 5] done -> /var/tmp/jobfs/qmt_bugs4q_5/raw_runs_shard0005.jsonl
+[Mon Jun 15 23:18:20 AEST 2026] Copying shards back to /fred...
+'/var/tmp/jobfs/qmt_bugs4q_5/morphq_shard0005.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/morphq_shard0005.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_5/morphq_summary_shard0005.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/morphq_summary_shard0005.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_5/raw_runs_shard0005.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/raw_runs_shard0005.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_5/summary_shard0005.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/shards/summary_shard0005.jsonl'
+[Mon Jun 15 23:18:20 AEST 2026] shard 5 done.
+
++------------------ Job Report: 13199182 (COMPLETED) ------------------+
+| Memory (RAM)  No data available                                      |
+| CPU           [                    ]  1.3% average                   |
+| Time          [>                   ]  0.3% (0-00:00:40 / 0-04:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   No data available                                                  |
++----------------------------------------------------------------------+

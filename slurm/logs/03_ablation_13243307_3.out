@@ -1,0 +1,15 @@
+[Wed Jun 17 06:41:21 AEST 2026] Ablation config 3: equivalence
+
++------------------ Job Report: 13243328 (CANCELLED) ------------------+
+| Memory (RAM)  No data available                                      |
+| CPU           [##############      ] 73.5% average                   |
+| Time          [>                   ]  0.9% (0-00:00:34 / 0-01:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   0 B           0 B                      2                   |
+|   /fred   84 KB         127 B                  120                   |
+|   /home   0 B           0 B                      2                   |
+|   OS      0 B           0 B                      2                   |
++----------------------------------------------------------------------+

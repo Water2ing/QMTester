@@ -1,0 +1,14 @@
+[Wed Jun 17 06:41:22 AEST 2026] Ablation config 2: phase
+
++------------------ Job Report: 13243327 (CANCELLED) ------------------+
+| Memory (RAM)  No data available                                      |
+| CPU           [###############     ] 79.4% average                   |
+| Time          [>                   ]  0.9% (0-00:00:34 / 0-01:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   0 B           0 B                      2                   |
+|   /fred   0 B           121 B                   15                   |
+|   OS      0 B           0 B                      2                   |
++----------------------------------------------------------------------+

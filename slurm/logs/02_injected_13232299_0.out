@@ -1,0 +1,44 @@
+[Tue Jun 16 19:09:54 AEST 2026] node=dave74 shard=0 FAMILIES=all
+[shard 0] 25 mutants
+  MUTANT m0001 op=gate_delete
+  MUTANT m0011 op=measurement_map
+  MUTANT m0021 op=gate_replace
+  MUTANT m0031 op=qubit_index
+  MUTANT m0041 op=gate_replace
+  MUTANT m0051 op=gate_replace
+  MUTANT m0061 op=qubit_index
+  MUTANT m0071 op=gate_delete
+  MUTANT m0081 op=gate_swap
+  MUTANT m0091 op=gate_replace
+  MUTANT m0101 op=qubit_index
+  MUTANT m0111 op=gate_delete
+  MUTANT m0121 op=gate_delete
+  MUTANT m0131 op=gate_replace
+  MUTANT m0141 op=qubit_index
+  MUTANT m0151 op=gate_delete
+  MUTANT m0161 op=qubit_index
+  MUTANT m0171 op=gate_replace
+  MUTANT m0181 op=gate_replace
+  MUTANT m0191 op=gate_replace
+  MUTANT m0201 op=qubit_index
+  MUTANT m0211 op=qubit_index
+  MUTANT m0221 op=gate_replace
+  MUTANT m0231 op=gate_delete
+  MUTANT m0241 op=gate_replace
+[shard 0] done -> /var/tmp/jobfs/qmt_injected_0/injected_identity_swap_phase_equivalence_shard0000.jsonl
+'/var/tmp/jobfs/qmt_injected_0/injected_identity_swap_phase_equivalence_shard0000.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/hpc_resource_fix_20260616T090928Z/shards/injected_identity_swap_phase_equivalence_shard0000.jsonl'
+'/var/tmp/jobfs/qmt_injected_0/injected_summary_identity_swap_phase_equivalence_shard0000.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/hpc_resource_fix_20260616T090928Z/shards/injected_summary_identity_swap_phase_equivalence_shard0000.jsonl'
+[Tue Jun 16 19:14:39 AEST 2026] shard 0 done.
+
++------------------ Job Report: 13232311 (COMPLETED) ------------------+
+| Memory (RAM)  [                    ]  2.3% (96 MB peak / 4 GB)       |
+| CPU           [################### ] 95.8% average                   |
+| Time          [>                   ]  2.7% (0-00:04:48 / 0-03:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   No data available                                                  |
+|                                                                      |
+| Warnings:                                                            |
+|   - Too much memory requested                                        |
+|   - Too much time requested                                          |
++----------------------------------------------------------------------+

@@ -1,0 +1,15 @@
+[Tue Jun 16 19:30:01 AEST 2026] Ablation config 6: identity swap phase equivalence
+
++------------------ Job Report: 13232559 (CANCELLED) ------------------+
+| Memory (RAM)  No data available                                      |
+| CPU           [###############     ] 79.5% average                   |
+| Time          [>                   ]  1.2% (0-00:00:44 / 0-01:00:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   0 B           0 B                      5                   |
+|   /fred   64.2 MB       147 B                   67                   |
+|   /home   12 KB         0 B                      3                   |
+|   OS      0 B           0 B                      2                   |
++----------------------------------------------------------------------+

@@ -1,0 +1,29 @@
+[Tue Jun 16 19:33:56 AEST 2026] node=dave71 shard=4
+[shard 4/6] loading manifest /work/data/manifests/bugs4q_manifest.csv...
+  5 subjects in this shard
+  RUN  qiskit_github_13 (3q)
+  RUN  qiskit_github_6 (2q)
+  RUN  qiskit_stackexchange_12 (3q)
+  RUN  qiskit_stackexchange_2 (4q)
+  RUN  qiskit_stackoverflow_2 (2q)
+[shard 4] done -> /var/tmp/jobfs/qmt_bugs4q_4/raw_runs_shard0004.jsonl
+[Tue Jun 16 19:34:42 AEST 2026] Copying shards back to /fred...
+'/var/tmp/jobfs/qmt_bugs4q_4/morphq_shard0004.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/redesign_hpc_1g_32bugs_fixcounts_20260616T093325Z/shards/morphq_shard0004.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_4/morphq_summary_shard0004.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/redesign_hpc_1g_32bugs_fixcounts_20260616T093325Z/shards/morphq_summary_shard0004.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_4/raw_runs_shard0004.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/redesign_hpc_1g_32bugs_fixcounts_20260616T093325Z/shards/raw_runs_shard0004.jsonl'
+'/var/tmp/jobfs/qmt_bugs4q_4/summary_shard0004.jsonl' -> '/fred/oz402/nhunguyen/ICSE_QMTester/data/results/runs/redesign_hpc_1g_32bugs_fixcounts_20260616T093325Z/shards/summary_shard0004.jsonl'
+[Tue Jun 16 19:34:42 AEST 2026] shard 4 done.
+
++------------------ Job Report: 13232632 (COMPLETED) ------------------+
+| Memory (RAM)  No data available                                      |
+| CPU           [#################   ] 88.0% average                   |
+| Time          [>                   ]  2.8% (0-00:00:50 / 0-00:30:00) |
+|                                                                      |
+| Lustre Filesystem:                                                   |
+|   Path    Total Read    Total Write      Total IOPS                  |
+|   ------  ------------  -------------  ------------                  |
+|   /apps   0 B           0 B                      4                   |
+|   /fred   20 KB         0 B                     43                   |
+|   /home   0 B           0 B                      1                   |
+|   OS      0 B           0 B                      2                   |
++----------------------------------------------------------------------+

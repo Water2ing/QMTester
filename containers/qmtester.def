@@ -1,0 +1,36 @@
+Bootstrap: docker
+From: python:3.11.6-slim-bookworm
+
+%labels
+    Maintainer QMTester
+    Description Pinned reproducible stack for QMTester (Qiskit Terra 0.45.3 / Aer 0.13.3)
+
+%post
+    set -e
+    apt-get update
+    apt-get install -y --no-install-recommends git build-essential libgomp1 ca-certificates
+    rm -rf /var/lib/apt/lists/*
+    python -m pip install --no-cache-dir --upgrade "pip==23.3.2"
+    # Scientific base first (no qiskit dependency)
+    python -m pip install --no-cache-dir \
+        "numpy==1.26.4" \
+        "scipy==1.11.4" \
+        "pandas==2.1.4" \
+        "matplotlib==3.8.2" \
+        "networkx==3.2.1"
+    # Install qiskit-terra 0.45.3 pinned (pre-1.0 generation) with constraint that
+    # prevents the new qiskit>=1.0 metapackage from being co-installed.
+    python -m pip install --no-cache-dir \
+        "qiskit-terra==0.45.3" \
+        "qiskit<1.0"
+    # Install qiskit-aer 0.13.3 (compatible with terra 0.45.x)
+    python -m pip install --no-cache-dir "qiskit-aer==0.13.3"
+    python -c "import qiskit; import qiskit_aer; import scipy, numpy, pandas; print('qiskit', qiskit.__version__, 'aer', qiskit_aer.__version__)"
+
+%environment
+    export PYTHONNOUSERSITE=1
+    export OMP_NUM_THREADS=1
+    export MPLBACKEND=Agg
+
+%runscript
+    exec python "$@"

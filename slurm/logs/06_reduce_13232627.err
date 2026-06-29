@@ -1,0 +1,3 @@
+INFO:    gocryptfs not found, will not be able to use gocryptfs
+INFO:    gocryptfs not found, will not be able to use gocryptfs
+FATAL: duplicate summary key mutant_id=m0001; clean shard dir or use a fresh run_id
